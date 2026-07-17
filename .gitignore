@@ -1,0 +1,30 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Build outputs
+dist/
+build/
+out/
+
+# Generated presentation outputs
+*.pptx
+*.pdf
+*.key
+*.mp4
+*.mov
+*.webm
+
+# Local private materials
+AGENTS.md
+private/
+local/
+scratch/
+*.local.*
