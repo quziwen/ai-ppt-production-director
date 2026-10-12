@@ -12,6 +12,8 @@ Thumbs.db
 # Build outputs
 dist/
 release/
+/graphify-out/
+node_modules/
 build/
 out/
 

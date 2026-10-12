@@ -1,5 +1,28 @@
 # AI PPT Production Director
 
+**Current version: 0.3.6 — 2026-10-12.**
+
+This is the same public project. Patrick working editions through v0.3.5 are incorporated here, retaining all 34 original core modules. The root [SKILL.md](SKILL.md) is canonical; `patrick-ppt-director` is an optional compatibility entry, not a separate implementation. See [CHANGELOG.md](CHANGELOG.md).
+
+The general profile supports financial/management reporting, executive reviews, training and external talks. The Patrick profile reads adopted personal rules from the current workspace. No personal Constitution, real deck, business data or private template is shipped.
+
+### Unified capabilities
+
+- Shared Deck IR, HTML visual editing and native/hybrid PPTX export through nine production/QA adapters.
+- Selection, lasso, text/geometry edits, undo/redo and saved IR; bounded natural-language edits and a controlled host bridge.
+- Delivery-standard confirmation, evidence-linked requirements, visual co-design and feedback classification.
+- The original [capability library](core/README.md), including speaker notes, Chinese wording, template/reference rights, layout and licensing.
+
+These are shipped capabilities, not whole-deck E3/H3 or cross-Office acceptance. See [release validation](RELEASE_VALIDATION.md).
+
+### Installation and dependencies
+
+Download the skill ZIP from [Releases](https://github.com/quziwen/ai-ppt-production-director/releases). Back up previous installations outside host discovery roots, then copy the complete `ai-ppt-production-director` directory into the actual skills directory used by Codex, Claude Code, DSH or Hermes. Optionally install the Patrick compatibility ZIP beside it. Use a fresh session to verify an upgrade.
+
+Planning only needs readable instructions and authorized sources. Adapters require Node.js; PPTX export needs `pptxgenjs`, inspection needs `jszip`, and HTML import/review needs Playwright and an available browser. Use the documented options or `PPT_DIRECTOR_NODE_MODULES`; see [IR contract](references/DECK_IR_SCHEMA.md) and [visual review](references/VISUAL_CO_DESIGN.md). Nothing auto-installs or uploads. PPT Master is not a dependency.
+
+Example: “使用幻灯片导演，先给Storyline，不要直接生成PPT。” Add “Patrick profile” when that personal workflow is intended.
+
 中文名：AI 幻灯片制作导演
 
 Tagline: Make AI think before it makes slides.
@@ -200,7 +223,7 @@ Then install or copy:
 dist/codex/ai-ppt-production-director/
 ```
 
-The packaged folder contains `SKILL.md` and a local `references/` folder, so the skill can work without relying on repository-relative `../../core` paths.
+The portable package contains canonical `SKILL.md`, current `references/`, retained `core/`, scripts and public supporting files. References resolve inside the package. The packaging script refuses an existing output directory.
 
 ## Testing
 

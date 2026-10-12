@@ -1,5 +1,15 @@
 # Delivery Manual
 
+## Current release: 0.3.6
+
+This unifies the public v0.1.0-beta and local Patrick v0.3.5 working edition. The root SKILL.md is canonical. All 34 original core modules remain alongside eight current contracts and nine production adapters. Host entries delegate to it; the optional Patrick package is only a sibling alias selecting the Patrick profile.
+
+For upgrade, back up old main/alias directories outside host discovery roots, copy the complete package, and verify VERSION, hashes and native discovery. Preserve old ZIPs/tags. Rollback restores the exact backed-up directory after checking the target.
+
+Exclude personal SSOT, actual decks, raw sessions, installed dependencies, credentials and machine-specific installation records. See [RELEASE_VALIDATION.md](RELEASE_VALIDATION.md) for completed checks and limits. No new whole-deck E3/H3, Office round trip, visual acceptance or full cross-agent production acceptance is claimed.
+
+The original capability inventory below remains; current contracts supersede older carrier defaults.
+
 This delivery manual explains what is included in the current `ai-ppt-production-director` skill package, how to install and validate it, and what remains to test before public release.
 
 ## Delivered Scope
@@ -101,6 +111,8 @@ Expected output:
 dist/codex/ai-ppt-production-director/
   SKILL.md
   references/
+  core/
+  scripts/
 ```
 
 Install manually by copying the generated package into the Codex skills directory:

@@ -1,5 +1,11 @@
 # Testing Guide
 
+## Version 0.3.6
+
+Actual results belong in [RELEASE_VALIDATION.md](RELEASE_VALIDATION.md). Check module retention, links, adapter delegation, Patrick alias, safe packaging, public-content boundaries, synthetic adapter execution and installation fingerprints. Independently exercise general reporting, Patrick fallback and requested-stage stopping.
+
+The nine runtime adapters are unchanged from local v0.3.5. Earlier evidence does not establish new visual/Office acceptance. Earlier ungraded behavior cases stay ungraded, not passed by installation or static checks.
+
 Use this guide to verify that the skill can be installed and behaves as an idea-to-deck production director.
 
 ## 1. Static Checks

@@ -1,5 +1,11 @@
 # Publishing Guide
 
+## Updating the existing project
+
+Use this repository and root VERSION; do not create a second repository for the Patrick name. Preserve existing releases and core capabilities. Package the canonical entry, current contracts, retained core and runtime; host adapters delegate to the same entry.
+
+Check the staged file list, imported runtime hashes, links and public-content boundaries. Exclude graph state, private SSOT, raw tests/sessions, backups and local bundles. Publish immutable assets and checksums, then read them back. The initial-publish commands below are historical bootstrap guidance, not instructions to reinitialize, reuse an old tag or force-push.
+
 This guide prepares `ai-ppt-production-director` for public GitHub release.
 
 ## Release Readiness
