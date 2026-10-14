@@ -1,12 +1,14 @@
 # Delivery Manual
 
-## Current release: 0.3.6
+## Current release: 0.3.7
+
+Adds user-selectable template collections and portable lookup/materialization. The public templates-included package contains 40 approved selections: 23 native financial patterns across three source packs/six sample PPTX files, eight HTML sources, and nine visual references. Include these assets with `package-codex.ps1 -IncludeUserTemplates`; default standard packaging omits user collections. See [USER_TEMPLATE_SET.md](references/USER_TEMPLATE_SET.md) and the [release downloads](https://github.com/quziwen/ai-ppt-production-director/releases/tag/v0.3.7).
 
 This unifies the public v0.1.0-beta and local Patrick v0.3.5 working edition. The root SKILL.md is canonical. All 34 original core modules remain alongside eight current contracts and nine production adapters. Host entries delegate to it; the optional Patrick package is only a sibling alias selecting the Patrick profile.
 
 For upgrade, back up old main/alias directories outside host discovery roots, copy the complete package, and verify VERSION, hashes and native discovery. Preserve old ZIPs/tags. Rollback restores the exact backed-up directory after checking the target.
 
-Exclude personal SSOT, actual decks, raw sessions, installed dependencies, credentials and machine-specific installation records. See [RELEASE_VALIDATION.md](RELEASE_VALIDATION.md) for completed checks and limits. No new whole-deck E3/H3, Office round trip, visual acceptance or full cross-agent production acceptance is claimed.
+Exclude personal SSOT, actual business decks, raw sessions, installed dependencies, credentials and machine-specific installation records. The six synthetic sample PPTX files are deliberately included only in the templates-included package. See [RELEASE_VALIDATION.md](RELEASE_VALIDATION.md) for completed checks and limits. No new whole-deck E3/H3, Office round trip, visual acceptance or full cross-agent production acceptance is claimed. The cash-flow pack's historical chart-data refresh failure is unresolved; native object structure and successful regeneration are not evidence of a successful PowerPoint data-edit round trip.
 
 The original capability inventory below remains; current contracts supersede older carrier defaults.
 

@@ -1,6 +1,6 @@
 # AI PPT Production Director — cursor entry
 
-Version: 0.3.6.
+Version: 0.3.7.
 
 Read the complete canonical [SKILL.md](../../SKILL.md). Resolve subsequent resources/scripts from its directory. Select the appropriate general/Patrick profile and resume at the requested stage. Do not maintain another workflow here.
 

@@ -1,0 +1,24 @@
+{
+  "shenzhen": {
+    "name": "深圳培训·暖白海军蓝金",
+    "basis": "深圳课件 v0.30 styles.css :root 与 slide-head h2；派生灰度为本包 Provisional 参数",
+    "background": "F8F3E8", "text": "203B61", "muted": "43505F",
+    "primary": "203B61", "accent": "C9A24B", "accentText": "8F6922",
+    "secondary": "6B7B8D", "neutral": "C6C9CA", "rule": "D4D4CC",
+    "stackColors": ["203B61", "6B7B8D", "8F6922"],
+    "panel": "EFE6CF", "risk": "9F403B", "white": "FFFDF7",
+    "titleFont": "SimSun", "bodyFont": "Microsoft YaHei UI", "numberFont": "Segoe UI",
+    "titleSize": 26, "bodySize": 14, "chartSize": 12, "metricSize": 25
+  },
+  "reference-red": {
+    "name": "参考图·红灰对照",
+    "basis": "依据截图视觉重建，非原作者精确色值",
+    "background": "FFF8F5", "text": "292626", "muted": "625858",
+    "primary": "8A151B", "accent": "A54B51", "accentText": "8A151B",
+    "secondary": "B6797D", "neutral": "C9C7C5", "rule": "E1D6D3",
+    "stackColors": ["8A151B", "6B6B6B", "9C713A"],
+    "panel": "F3E6E2", "risk": "8A151B", "white": "FFFDFC",
+    "titleFont": "SimSun", "bodyFont": "Microsoft YaHei UI", "numberFont": "Segoe UI",
+    "titleSize": 26, "bodySize": 14, "chartSize": 12, "metricSize": 25
+  }
+}

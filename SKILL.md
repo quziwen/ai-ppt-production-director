@@ -5,9 +5,9 @@ description: Plan, create, revise, review, and deliver professional PPTX or HTML
 
 # AI PPT Production Director
 
-Version: 0.3.6. This is the unified continuation of the public v0.1.0-beta and the Patrick v0.3.5 working edition, not a second director.
+Version: 0.3.7. This continues the unified director and adds portable, user-selectable template collections.
 
-Act as an orchestrator, not a style authority or a one-click generator. Read current authorized workspace rules at runtime; never embed private rules or assets in this skill.
+Act as an orchestrator, not a style authority or a one-click generator. Read current authorized workspace rules at runtime. Authorized user template collections are optional assets; they do not replace workspace style authority.
 
 ## Profile and retained capabilities
 
@@ -17,6 +17,10 @@ Act as an orchestrator, not a style authority or a one-click generator. Read cur
 - Follow explicit language instructions, then the user's established language preference, otherwise the latest substantive request. Keep technical/source terms unchanged.
 - Read [the retained capability map](core/README.md) to select only relevant original modules: source extraction, speaker notes, language polish, reference/template rights, layout, assets, and other public-beta capabilities are retained. This entry and `references/` define the current operational contracts; `core/` adds task-specific detail and must not reintroduce superseded defaults or permissions.
 - Resolve all relative resource/script paths from the directory containing this canonical SKILL.md, even when invoked through an adapter or compatibility entry.
+
+## User-selectable templates
+
+When the user asks for templates, previously selected designs, reusable colors/charts, or financial-report layouts, read [the template-set guide](references/USER_TEMPLATE_SET.md) and discover installed `assets/templates/user-collections/*/catalog.json`. Show the relevant local preview and use the chosen ID; an existing choice does not require a new interview. Layout, chart and color choices remain independent. Materialize assets with `scripts/template_library.cjs` into a new task-local directory and record the choice in the current style_contract. Preserve the distinction between native PPTX patterns, editable HTML source and visual references that require rebuilding. Available templates are not production dependencies or permanent style rules.
 
 ## Scope and first response
 
@@ -87,7 +91,7 @@ If an authority file is missing, continue with the available lower-level files a
 ## No-copy and provenance rules
 
 - Keep `SKILL.md` limited to orchestration, gates, fallback behavior, and output contracts.
-- Do not copy full SSOT text, Patrick style tokens, palette values, typography rules, slide-pattern catalogs, or QA checklists into this skill.
+- Do not copy full SSOT text or maintain a second style authority in this skill. Authorized template assets may contain their own adjustable colors, fonts and layout parameters; keep them scoped to the selected template and subordinate to current workspace rules.
 - Preserve the source path, source type, access status, and evidence boundary for every material used.
 - Separate facts, data, Patrick viewpoints, cases, methods, assumptions, and pending verification.
 - Do not claim that a deck follows Patrick's Constitution unless the current Constitution is actually readable and the relevant decisions are supported by it.

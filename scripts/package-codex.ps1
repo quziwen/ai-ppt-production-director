@@ -1,6 +1,7 @@
 param(
     [string]$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path,
-    [string]$OutDir = ""
+    [string]$OutDir = "",
+    [switch]$IncludeUserTemplates
 )
 $ErrorActionPreference = "Stop"
 $repo = (Resolve-Path -LiteralPath $RepoRoot).Path
@@ -13,8 +14,18 @@ foreach ($name in $documents) {
 }
 New-Item -ItemType Directory -Path $target | Out-Null
 foreach ($name in $documents) { Copy-Item -LiteralPath (Join-Path $repo $name) -Destination (Join-Path $target $name) }
-foreach ($name in @("references","core","adapters","assets","examples","research")) {
+foreach ($name in @("references","core","adapters","examples","research")) {
     Copy-Item -LiteralPath (Join-Path $repo $name) -Destination (Join-Path $target $name) -Recurse
+}
+$assetSource = Join-Path $repo "assets"
+$assetTarget = Join-Path $target "assets"
+Get-ChildItem -LiteralPath $assetSource -File -Recurse | ForEach-Object {
+    $relative = $_.FullName.Substring($assetSource.Length + 1).Replace('\','/')
+    if ($IncludeUserTemplates -or -not $relative.StartsWith('templates/user-collections/')) {
+        $destination = Join-Path $assetTarget $relative
+        New-Item -ItemType Directory -Path (Split-Path -Parent $destination) -Force | Out-Null
+        Copy-Item -LiteralPath $_.FullName -Destination $destination
+    }
 }
 New-Item -ItemType Directory -Path (Join-Path $target "scripts") | Out-Null
 Get-ChildItem -LiteralPath (Join-Path $repo "scripts") -Filter "*.cjs" -File |

@@ -1,10 +1,44 @@
 # AI PPT Production Director
 
-**Current version: 0.3.6 — 2026-10-12.**
+**Current version: 0.3.7 — 2026-10-14.**
 
 This is the same public project. Patrick working editions through v0.3.5 are incorporated here, retaining all 34 original core modules. The root [SKILL.md](SKILL.md) is canonical; `patrick-ppt-director` is an optional compatibility entry, not a separate implementation. See [CHANGELOG.md](CHANGELOG.md).
 
-The general profile supports financial/management reporting, executive reviews, training and external talks. The Patrick profile reads adopted personal rules from the current workspace. No personal Constitution, real deck, business data or private template is shipped.
+The general profile supports financial/management reporting, executive reviews, training and external talks. The Patrick profile reads adopted personal rules from the current workspace. Version 0.3.7 publishes the approved 40-item template collection as an optional, portable set. Personal Constitution and real business data remain workspace-owned.
+
+### User-selectable template sets
+
+The templates-included package contains 40 selected items, not 40 complete decks:
+
+| Type | Included | What can be reused |
+|---|---|---|
+| Native financial patterns | 23: FA02–FA10, ER01–ER06, CC01–CC08 | Three source packs, six two-color sample PPTX files, 46 previews, synthetic data and builders |
+| HTML layouts | 8: 8-Bit Orbit, Blue Professional, Broadside, Cartesian, Grove, Long Table, Monochrome, Pink Script | Editable HTML source and 24 preview images; PPTX conversion is a separate production step |
+| Visual references | 9: editorial covers, evidence layouts, consulting/research rhythms and dense structures | Local reference images and layout notes; rebuild the needed objects rather than exporting a slide-sized screenshot |
+
+Open `assets/templates/user-collections/patrick-20261014/index.html` after downloading to browse locally. GitHub displays its source, not a live editor. With Node.js, run `node scripts/template_library.cjs --serve --port 49115` for a loopback-only gallery, then open the printed URL. See [the selection guide](references/USER_TEMPLATE_SET.md) and [catalog](https://github.com/quziwen/ai-ppt-production-director/blob/v0.3.7/assets/templates/user-collections/patrick-20261014/catalog.json).
+
+```bash
+node scripts/template_library.cjs --list --query 预算
+node scripts/template_library.cjs --show CC02
+node scripts/template_library.cjs --materialize CC02 --out ./new-deck-template --theme shenzhen
+```
+
+Layout, chart and color choices are independent. Use “版式用这套，配色换深圳” or specify another project theme. A materialized template is an editable starting resource, not an automatically completed deck. Existing output directories are never overwritten. The saved Patrick preferences are optional for other users and remain subordinate to current workspace rules.
+
+### Example previews
+
+Synthetic financial examples, with the Shenzhen theme:
+
+![Cash-flow overview, trends and cash bridge — FA03](https://raw.githubusercontent.com/quziwen/ai-ppt-production-director/v0.3.7/assets/templates/user-collections/patrick-20261014/native/finance-analysis-v0.1/previews/shenzhen/FA03.png)
+
+![Budget execution overview — CC02](https://raw.githubusercontent.com/quziwen/ai-ppt-production-director/v0.3.7/assets/templates/user-collections/patrick-20261014/native/cost-expense-control-v0.1/previews/shenzhen/CC02.png)
+
+An included HTML layout, in its reference colors:
+
+![Blue Professional HTML layout](https://raw.githubusercontent.com/quziwen/ai-ppt-production-director/v0.3.7/assets/templates/user-collections/patrick-20261014/html/blue-professional/preview-1.png)
+
+The images above show layout choices, not real company results or a claim that every chart supports a verified PowerPoint data-refresh round trip.
 
 ### Unified capabilities
 
@@ -17,7 +51,13 @@ These are shipped capabilities, not whole-deck E3/H3 or cross-Office acceptance.
 
 ### Installation and dependencies
 
-Download the skill ZIP from [Releases](https://github.com/quziwen/ai-ppt-production-director/releases). Back up previous installations outside host discovery roots, then copy the complete `ai-ppt-production-director` directory into the actual skills directory used by Codex, Claude Code, DSH or Hermes. Optionally install the Patrick compatibility ZIP beside it. Use a fresh session to verify an upgrade.
+Download from [v0.3.7](https://github.com/quziwen/ai-ppt-production-director/releases/tag/v0.3.7):
+
+- Recommended with the selected templates: [ai-ppt-production-director-v0.3.7-with-templates.zip](https://github.com/quziwen/ai-ppt-production-director/releases/download/v0.3.7/ai-ppt-production-director-v0.3.7-with-templates.zip).
+- Lightweight, without that collection: [ai-ppt-production-director-v0.3.7-standard.zip](https://github.com/quziwen/ai-ppt-production-director/releases/download/v0.3.7/ai-ppt-production-director-v0.3.7-standard.zip).
+- Optional Patrick-name alias: [patrick-ppt-director-v0.3.7-compat.zip](https://github.com/quziwen/ai-ppt-production-director/releases/download/v0.3.7/patrick-ppt-director-v0.3.7-compat.zip). This requires the main Skill beside it.
+
+Back up previous installations outside host discovery roots, then copy the complete `ai-ppt-production-director` directory into the actual skills directory used by Codex, Claude Code, DSH or Hermes. Optionally install the Patrick alias beside it. Use a fresh session to verify an upgrade. Release attachments include SHA256 checksums.
 
 Planning only needs readable instructions and authorized sources. Adapters require Node.js; PPTX export needs `pptxgenjs`, inspection needs `jszip`, and HTML import/review needs Playwright and an available browser. Use the documented options or `PPT_DIRECTOR_NODE_MODULES`; see [IR contract](references/DECK_IR_SCHEMA.md) and [visual review](references/VISUAL_CO_DESIGN.md). Nothing auto-installs or uploads. PPT Master is not a dependency.
 
@@ -29,15 +69,17 @@ Tagline: Make AI think before it makes slides.
 
 A multi-agent, idea-to-deck skill for turning vague ideas, work experience, raw notes, and source materials into audience-fit presentations through a slow, gated, professional workflow.
 
-This is not a one-click PPT generator and not a template pack. It acts like a small production studio: writer, screenwriter, director, and production crew. The goal is to help an AI agent think through the point of view, storyline, page substance, visual direction, build route, and QA gates before producing slides.
+This is a director workflow with an optional template library, not a one-click PPT generator. It acts like a small production studio: writer, screenwriter, director, and production crew. The goal is to help an AI agent think through the point of view, storyline, page substance, visual direction, build route, and QA gates before producing slides.
 
-This repository does not ship private decks, brand templates, screenshots, videos, or third-party template files. It provides reusable workflows, adapters, original template recipes, and testing prompts for public use.
+The standard distribution provides reusable workflows, adapters, original template recipes and testing prompts. The templates-included distribution also ships the explicitly approved collection, with provenance and type-specific use notes. Future private collections are not authorized for publication by this release.
 
 ## 中文简介
 
 AI PPT Production Director（AI 幻灯片制作导演）是一个多 Agent 演示文稿制作工作流 Skill。
 
-它不是一键生成 PPT 的工具，也不是模板包。它更像一个“作家 + 编剧 + 导演 + 制作团队”的工作流：先帮助 AI 把模糊想法、工作经验、资料和表达目标梳理清楚，再进入故事线设计、页面规划、视觉方向、制作路线、可编辑性取舍和质量检查。
+它不是一键生成 PPT 的工具，而是带可选模板库的制作工作流：先帮助 AI 把模糊想法、工作经验、资料和表达目标梳理清楚，再进入故事线设计、页面规划、视觉方向、制作路线、可编辑性取舍和质量检查。
+
+v0.3.7 已把此前选定的 40 项素材装入可移植模板集。财务汇报可以按内容选现金流、经营财报、预算与成本费用版式；排版、图表和颜色可以分别选择，不必沿用参考原色。直接说“使用幻灯片导演，用 CC02，配色换深圳，先给大纲”即可。已有选择不要求重新打磨三轮标准。
 
 核心目标：让 AI 先想清楚，再做 PPT。
 
@@ -58,7 +100,7 @@ AI PPT Production Director（AI 幻灯片制作导演）是一个多 Agent 演�
 - Controls content density, layout grammar, hybrid editability tradeoffs, and visual QA before bulk production.
 - Selects an original template recipe.
 - Recommends built-in style directions when the user has no preferred PPT, screenshot, or template.
-- Guides users on how to find external template inspiration safely without redistributing third-party files.
+- Finds installed, user-selected template assets first, retaining provenance and separate layout/chart/color preferences; external discovery remains optional.
 - Supports user-provided PPT/PPTX templates or reference decks when rights and confidentiality boundaries are clear.
 - Reverse-engineers good-looking reference decks into reusable visual systems, page patterns, and quality rubrics without copying private or third-party assets.
 - Adds visual asset discipline for icons, images, illustrations, screenshots, and other non-text elements so decks do not feel generic or overly simple.
@@ -72,8 +114,8 @@ AI PPT Production Director（AI 幻灯片制作导演）是一个多 Agent 演�
 ## What This Skill Does Not Do
 
 - It does not include private business content.
-- It does not redistribute Canva, Slidesgo, commercial templates, or downloaded third-party template files.
-- It does not publish company logos, brand systems, screenshots, videos, or internal cases.
+- It does not treat this approved collection as authorization to publish other uploaded decks, marketplace templates or private assets.
+- It does not publish private company screenshots, videos or internal cases; public reference images remain reference material, not production brand assets.
 - It does not assume every AI agent has the same tools.
 - It does not silently install optional tools, plugins, skills, templates, fonts, or assets.
 
@@ -141,11 +183,22 @@ ai-ppt-production-director/
     feishu-ai-ppt-article-review.md
   scripts/
     package-codex.ps1
+    template_library.cjs
+    native_pptx_export.cjs
+    html_visual_editor.cjs
+    ...
   assets/
     templates/
       README.md
       original-minimal-business/
       original-dark-executive/
+      user-collections/
+        patrick-20261014/
+          catalog.json
+          index.html
+          native/
+          html/
+          visual/
 ```
 
 ## Recommended Use
@@ -209,12 +262,12 @@ See `OPTIONAL_TOOLS.md` and `core/optional-capability-registry.md`.
 
 ## Research Notes
 
-`research/feishu-ai-ppt-article-review.md` summarizes safe, public-facing lessons from Feishu-saved AI/PPT articles and independently checkable public projects. It is a development reference, not a template source. Do not copy private article text, proprietary decks, screenshots, or third-party template files into this repository.
+`research/feishu-ai-ppt-article-review.md` summarizes public-facing lessons from AI/PPT articles and independently checkable public projects. It is a development reference, not an asset bundle. The explicitly approved template collection is separately cataloged under `assets/templates/user-collections/`; do not add private article text, private decks or unrelated assets as a side effect.
 
 For Codex installation, build the installable package first:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\package-codex.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\package-codex.ps1 -IncludeUserTemplates
 ```
 
 Then install or copy:
@@ -223,11 +276,15 @@ Then install or copy:
 dist/codex/ai-ppt-production-director/
 ```
 
-The portable package contains canonical `SKILL.md`, current `references/`, retained `core/`, scripts and public supporting files. References resolve inside the package. The packaging script refuses an existing output directory.
+Omit `-IncludeUserTemplates` for the lightweight standard package. The portable package contains canonical `SKILL.md`, current `references/`, retained `core/`, scripts and supporting files. Resource paths resolve inside the installed Skill, without the author's workspace. The packaging script refuses an existing output directory.
 
 ## Testing
 
 See `TESTING.md` for static checks, install package validation, clean install testing, and behavior test prompts.
+
+For v0.3.7, 19 focused template checks passed: selection integrity, discovery, cross-project materialization, alternate colors, synthetic native builds, output safety and PPTX package readback. Browser checks exercised previews and palette switching. These are template-integration checks, not a new independent whole-deck production score.
+
+Known limits remain visible: the cash-flow pack previously failed a PowerPoint chart-workbook edit/refresh check, and a forced refresh caused a bar-length mismatch. The cause is unresolved; regenerate from the included synthetic-data builder when changing data, then run visual/data QA. Other financial packs have native chart/workbook structure but their PowerPoint data-refresh round trips are unverified. Shape-based waterfalls require recalculation. HTML source editability and reference images do not by themselves establish E3/H3. See [release validation](RELEASE_VALIDATION.md) and the packs' `PRIOR_QA.md` records.
 
 For external beta testers, start with `BETA_TESTING.md`.
 
@@ -237,7 +294,7 @@ See `DELIVERY.md` for delivered scope, files, installation, validation, known bo
 
 ## License
 
-See `LICENSE`.
+See `LICENSE` for this project's code and workflow. Imported HTML and public reference images retain their cataloged origins; inclusion is not a claim that the project's license transfers ownership of those sources.
 
 ## Publishing
 

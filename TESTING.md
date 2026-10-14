@@ -1,6 +1,10 @@
 # Testing Guide
 
-## Version 0.3.6
+## Version 0.3.7
+
+For user template integration, check exact selected IDs and dimensions, locally available preview/source files, template lookup and materialization from a separate project, native sample rebuild and PPTX readback, and rejection of existing output paths. Verify package inclusion with `-IncludeUserTemplates` and exclusion in the standard package. Browser preview/selection, installer file equality and model-driven production are distinct evidence.
+
+## Previous version 0.3.6
 
 Actual results belong in [RELEASE_VALIDATION.md](RELEASE_VALIDATION.md). Check module retention, links, adapter delegation, Patrick alias, safe packaging, public-content boundaries, synthetic adapter execution and installation fingerprints. Independently exercise general reporting, Patrick fallback and requested-stage stopping.
 

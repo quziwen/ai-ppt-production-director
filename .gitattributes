@@ -1,0 +1,2 @@
+# Keep cataloged asset bytes stable across Git/OS line-ending conversion.
+/assets/templates/user-collections/** -text

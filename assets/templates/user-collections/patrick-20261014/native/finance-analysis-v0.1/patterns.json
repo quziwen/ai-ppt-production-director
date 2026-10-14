@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "selection": "user-approved-reference; reconstructed-samples-pending",
+  "source_url": "https://mp.weixin.qq.com/s/S6rDe9YA3Ijo5Au45Z5p9g",
+  "canvas": {"width_in": 13.333333, "height_in": 7.5},
+  "patterns": [
+    {"id":"FA02","reference_page":2,"name":"分析工作流","slots":["结论标题","五步流程","每步输入/动作/输出","底部共识"],"use":"协作方法、诊断过程、经营复盘"},
+    {"id":"FA03","reference_page":3,"name":"指标总览＋趋势＋现金桥","slots":["六指标","左趋势组合图","右瀑布图","判断条"],"use":"业绩与现金表现的背离"},
+    {"id":"FA04","reference_page":4,"name":"主因拆解＋右侧双证据","slots":["六指标","左瀑布图","右上堆积","右下排名"],"use":"营运资金、差异成因，内容密集阅读页"},
+    {"id":"FA05","reference_page":5,"name":"支出结构＋投入产出节奏","slots":["六指标","左横向排名","右柱线组合","条件提示"],"use":"投资、费用投入与结果，双轴须明确单位"},
+    {"id":"FA06","reference_page":6,"name":"渠道结构＋净变化","slots":["六指标","左渠道排名","右瀑布图","风险条"],"use":"融资、资源筹措或渠道贡献"},
+    {"id":"FA07","reference_page":7,"name":"业务对比＋现金影响","slots":["六指标","左分组柱","右瀑布图","原因链"],"use":"增长贡献与现金压力并存"},
+    {"id":"FA08","reference_page":8,"name":"结构变化＋效率分化","slots":["六指标","左堆积对比","右柱线组合","优先级提示"],"use":"库存、资产与周转；数量和天数不能混轴"},
+    {"id":"FA09","reference_page":9,"name":"预测桥＋三情景","slots":["左预测瀑布","右三情景","底部措施路径"],"use":"现金、预算、产能等情景比较；必须注明假设"},
+    {"id":"FA10","reference_page":10,"name":"措施表＋改善结果","slots":["左措施/责任/贡献表","右前后对比","管理决策要点"],"use":"落实行动与预计效果；预计不等于已实现"}
+  ],
+  "cover_note": "参考封面留作文字左/视觉右的方向提示，不复制产品拼贴、头像和Logo，本版聚焦分析页02—10。"
+}

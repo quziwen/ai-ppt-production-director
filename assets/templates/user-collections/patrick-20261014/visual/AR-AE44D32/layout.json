@@ -1,0 +1,33 @@
+{
+  "id": "AR-AE44D32",
+  "name": "编辑式封面＋右侧概览",
+  "kind": "visual-reference-pattern",
+  "selected": {
+    "layout": true,
+    "chart": true,
+    "color": true
+  },
+  "referenceImage": "reference.jpg",
+  "productionInstructions": [
+    "先看原图，从中识别标题、图表、注释和层级；产品界面和广告不作为正文结构",
+    "将本次内容映射到独立原生文字、表格、形状与有数据源的图表",
+    "来源数字与品牌标识只用于看样，不带入新稿",
+    "遵循当前工作区规范与本次批准的 E/H 目标；改数据检查图形联动"
+  ],
+  "themeChoice": [
+    "shenzhen",
+    "reference"
+  ],
+  "rawData": "provided-by-current-deck",
+  "acceptance": "selection-approved; production-QA-required",
+  "use": "开场、研究问题、主题介绍；截图中的主幻灯片作为版式参考",
+  "slots": [
+    "顶部细品牌/章节栏",
+    "左侧大标题与一句背景",
+    "右侧窄概览栏",
+    "底部细页脚"
+  ],
+  "patternType": "single-page",
+  "sourceName": "同一份高盛研报交给两款 AI 做 PPT，差距这么大！Genspark 和 Tosea AI，谁更适合咨询？ · 图1",
+  "guard": "来源文字、品牌、数字和轴标签仅用于理解样图；正式制作使用本次资料重新排版和绘图。"
+}

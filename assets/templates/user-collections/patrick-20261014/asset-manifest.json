@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "approved-selection.json",
+      "bytes": 5259,
+      "sha256": "fd687c87a59b104aedaae2b7d241f1c273e4c2edfbc29d5c0b9c3ed06c358770",
+      "origin": "visible-gallery-selection"
+    },
+    {
+      "path": "catalog.js",
+      "bytes": 54197,
+      "sha256": "3e5b47315ce5638120fe7f04ea02ccc1bc5f5e5420dc59deb73b5dc08098b050",
+      "origin": "derived preview data"
+    },
+    {
+      "path": "catalog.json",
+      "bytes": 74674,
+      "sha256": "fdcabfa89e95887e85fd384c993aa7853d0ae1d20366eb4611501e6d3bd8dde1",
+      "origin": "derived catalog"
+    },
+    {
+      "path": "html/8-bit-orbit/preview-1.png",
+      "bytes": 1371904,
+      "sha256": "c1f0517225fbe17807d69de03a7260881738d25bc456bd4151af67fabbb15281",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/8-bit-orbit-1.png"
+    },
+    {
+      "path": "html/8-bit-orbit/preview-2.png",
+      "bytes": 1130684,
+      "sha256": "169a44bcae5c5908be923b780130cbdce09d161d4d697da66d48d00bd090c1c3",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/8-bit-orbit-5.png"
+    },
+    {
+      "path": "html/8-bit-orbit/preview-3.png",
+      "bytes": 1154965,
+      "sha256": "c4547ed996fe52337d73f57330807b714e88da5226a88498f699158331c01219",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/8-bit-orbit-6.png"
+    },
+    {
+      "path": "html/8-bit-orbit/template.html",
+      "bytes": 48904,
+      "sha256": "af98ef84adf2f81269d5127edc7e9dd5ff4222c62f04da2c3004a9f38bb66d17",
+      "origin": "_research/20261014-ppt-skill-landscape/repos/zarazhangrui__beautiful-html-templates/source/templates/8-bit-orbit/template.html"
+    },
+    {
+      "path": "html/blue-professional/preview-1.png",
+      "bytes": 59096,
+      "sha256": "0f08aefe70cb14ca7f3126ecc2f34319ca8f281ecdf81c6d6486ea93b2236f8c",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/blue-professional-1.png"
+    },
+    {
+      "path": "html/blue-professional/preview-2.png",
+      "bytes": 67495,
+      "sha256": "0f2ce93ca4ba54cb31c30490c1cdd6c0088c81547fe9815a6a59cd11ba57573d",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/blue-professional-6.png"
+    },
+    {
+      "path": "html/blue-professional/preview-3.png",
+      "bytes": 70148,
+      "sha256": "23136f940fd115388cc6f3703927406f02d10e9a472e8a0a991668fe6ea011d4",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/blue-professional-8.png"
+    },
+    {
+      "path": "html/blue-professional/template.html",
+      "bytes": 43370,
+      "sha256": "5376e910203970ac69bc954e35a39626070b3fc48051ce1408aae7619e4caefa",
+      "origin": "_research/20261014-ppt-skill-landscape/repos/zarazhangrui__beautiful-html-templates/source/templates/blue-professional/template.html"
+    },
+    {
+      "path": "html/broadside/preview-1.png",
+      "bytes": 78441,
+      "sha256": "96805bd67e4502f94b078b723d252717183fe8eb34f2eb529c44b772b4dcdce4",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/broadside-1.png"
+    },
+    {
+      "path": "html/broadside/preview-2.png",
+      "bytes": 68967,
+      "sha256": "18a124480343b97a0c2aab335e66a0c41ab6f6d01884380c6526fef50a560601",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/broadside-13.png"
+    },
+    {
+      "path": "html/broadside/preview-3.png",
+      "bytes": 87432,
+      "sha256": "b3ec95db1e926d3791ffa41014ba098eba5034bfb55a8b158ab2b264a206c081",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/broadside-4.png"
+    },
+    {
+      "path": "html/broadside/template.html",
+      "bytes": 74546,
+      "sha256": "1e70f8355fd78264cc5c4dbbc067ceb2719a0a04943c9c0366d6667f26d5af2f",
+      "origin": "_research/20261014-ppt-skill-landscape/repos/zarazhangrui__beautiful-html-templates/source/templates/broadside/template.html"
+    },
+    {
+      "path": "html/cartesian/preview-1.png",
+      "bytes": 59174,
+      "sha256": "59af0f5ee20b85f07ada82a1d6bb8ab5e69b81bb08b5abf2a7520eca4934e93e",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/cartesian-1.png"
+    },
+    {
+      "path": "html/cartesian/preview-2.png",
+      "bytes": 47903,
+      "sha256": "7d7429f8f5a25b7cd994ffd01ad2db187f9c2ec441c48c9cc6458b67405648ae",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/cartesian-4.png"
+    },
+    {
+      "path": "html/cartesian/preview-3.png",
+      "bytes": 50937,
+      "sha256": "f6411b785ba0aeda5e79c7ef59df700a69e2f111a231a67195a9598a632310d1",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/cartesian-8.png"
+    },
+    {
+      "path": "html/cartesian/template.html",
+      "bytes": 34875,
+      "sha256": "fd4522b7a42a32d1aa97666af58ef5469da788ddfbcf1b3b0d02ae161f4c57db",
+      "origin": "_research/20261014-ppt-skill-landscape/repos/zarazhangrui__beautiful-html-templates/source/templates/cartesian/template.html"
+    },
+    {
+      "path": "html/grove/preview-1.png",
+      "bytes": 60650,
+      "sha256": "6a01598d4b183837b96c698eb9453962fea4bea072a431ee4d71aef6e09da3eb",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/grove-1.png"
+    },
+    {
+      "path": "html/grove/preview-2.png",
+      "bytes": 105368,
+      "sha256": "8f734550801c22f83ec27722774839c7ceb4e70d9542ff4d6a04e1aae5b00bf8",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/grove-4.png"
+    },
+    {
+      "path": "html/grove/preview-3.png",
+      "bytes": 98633,
+      "sha256": "fe004df143b8158d418d98728bd10a17e81ac9890cd3538f45f92daf8ea4241e",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/grove-8.png"
+    },
+    {
+      "path": "html/grove/template.html",
+      "bytes": 66189,
+      "sha256": "6abee5f625d0c8874f25c143d3220dd6d6626cb8b3e30b3321e4bcca88582d59",
+      "origin": "_research/20261014-ppt-skill-landscape/repos/zarazhangrui__beautiful-html-templates/source/templates/grove/template.html"
+    },
+    {
+      "path": "html/long-table/preview-1.png",
+      "bytes": 117166,
+      "sha256": "79f7956399971a6038c6b98ba7850b8d232c593bafb1c484c7127e5d3fd60bba",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/long-table-1.png"
+    },
+    {
+      "path": "html/long-table/preview-2.png",
+      "bytes": 92658,
+      "sha256": "267f7d9ca2c561cf72da54a031ba74fcb80291538926f076db1f92857e7251e9",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/long-table-3.png"
+    },
+    {
+      "path": "html/long-table/preview-3.png",
+      "bytes": 120562,
+      "sha256": "e8b3d444590673ccbdc39a40fa186e3da871618e64c2bfddf7012b18e40fe817",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/long-table-7.png"
+    },
+    {
+      "path": "html/long-table/template.html",
+      "bytes": 42654,
+      "sha256": "94c9c33fb4ca9cb9e45e5a124b71ae185aa8bcf4df1c9286b7fe4e6c62edc590",
+      "origin": "_research/20261014-ppt-skill-landscape/repos/zarazhangrui__beautiful-html-templates/source/templates/long-table/template.html"
+    },
+    {
+      "path": "html/monochrome/preview-1.png",
+      "bytes": 67733,
+      "sha256": "bac6b00bf1d0b3c97b19d2a0c45edf44af5cbf369f2cf3ebe78a207a7b6b8c7b",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/monochrome-1.png"
+    },
+    {
+      "path": "html/monochrome/preview-2.png",
+      "bytes": 85783,
+      "sha256": "cd8317e8b5090a01908eabaa1e5b1d786422ac4cacf7cbd09b8c46514e71d164",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/monochrome-12.png"
+    },
+    {
+      "path": "html/monochrome/preview-3.png",
+      "bytes": 88764,
+      "sha256": "858d9e989e67747ac286deaa48761a6f0e7cc325d701544a97570722f3cd8b66",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/monochrome-4.png"
+    },
+    {
+      "path": "html/monochrome/template.html",
+      "bytes": 92720,
+      "sha256": "5bca449b2a07b8b237f2a597974251b1828edb2af97baf1727c535cf9d7a6dbb",
+      "origin": "_research/20261014-ppt-skill-landscape/repos/zarazhangrui__beautiful-html-templates/source/templates/monochrome/template.html"
+    },
+    {
+      "path": "html/pink-script/preview-1.png",
+      "bytes": 1952304,
+      "sha256": "d39af58b620fe59ab0e28db0f070fd6e13214896115aa984be069369ef594ff7",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/pink-script-1.png"
+    },
+    {
+      "path": "html/pink-script/preview-2.png",
+      "bytes": 1948772,
+      "sha256": "8af653667d89a7467b01f35f978d6ead5bfa70f2f03f0c7fc1bb2267699a8d0c",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/pink-script-4.png"
+    },
+    {
+      "path": "html/pink-script/preview-3.png",
+      "bytes": 1961227,
+      "sha256": "98c1cd1c817aab2ef1d9efc0a60ea4cf0a5e6586ca873d95d48da6360998178d",
+      "origin": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/pink-script-8.png"
+    },
+    {
+      "path": "html/pink-script/template.html",
+      "bytes": 40334,
+      "sha256": "d2263b8267b03c3edfc2ae77b4d8f4c876289728c441405c18d76db71bfb3167",
+      "origin": "_research/20261014-ppt-skill-landscape/repos/zarazhangrui__beautiful-html-templates/source/templates/pink-script/template.html"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8560,
+      "sha256": "91596ecfabde76077d86721645835aa32185675f83069220c3cfeb38ad86d3c0",
+      "origin": "local user template collection"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/build.cjs",
+      "bytes": 12924,
+      "sha256": "48dddb1c8d5ee4b40509e75b6a35a4f404c958cdb9a9b8e61c99609b3440f9f9",
+      "origin": "templates/cost-expense-control-v0.1/build.cjs"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/data.json",
+      "bytes": 1357,
+      "sha256": "e31759cf918a16d052a89715694e9469487211721e6fdfef3591eb2079c36609",
+      "origin": "templates/cost-expense-control-v0.1/data.json"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/patterns.json",
+      "bytes": 2215,
+      "sha256": "4e5a0d04756f3f5b05a772b27967a96503a408ae7c70dd891eb3963b03a27a95",
+      "origin": "templates/cost-expense-control-v0.1/patterns.json"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC01.png",
+      "bytes": 98255,
+      "sha256": "0c18635258cb1e334ed614ba18532a21e358815d74c729b57810cdbfb8acd307",
+      "origin": "templates/cost-expense-control-v0.1/output/reference-slate/qa/slide-01.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC02.png",
+      "bytes": 97924,
+      "sha256": "fa66318da5f6c494307238ccd50e5a42403ba6b088c7d05911b7efbbfa1595ee",
+      "origin": "templates/cost-expense-control-v0.1/output/reference-slate/qa/slide-02.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC03.png",
+      "bytes": 104945,
+      "sha256": "04246a10211771ab0767ecf519c3f65b21cfe2bf21957fbedf1c6fbe9eca67e2",
+      "origin": "templates/cost-expense-control-v0.1/output/reference-slate/qa/slide-03.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC04.png",
+      "bytes": 79708,
+      "sha256": "1a099bd439c09914d7989b632d999f9f267037602d89ceb4392dd9e7752c0be0",
+      "origin": "templates/cost-expense-control-v0.1/output/reference-slate/qa/slide-04.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC05.png",
+      "bytes": 104952,
+      "sha256": "0f3d364434ca84bc82a73ac0d3725a1474d2fced87b2e8865adae1aebe2eb707",
+      "origin": "templates/cost-expense-control-v0.1/output/reference-slate/qa/slide-05.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC06.png",
+      "bytes": 96275,
+      "sha256": "ee7484da004e89e230ba57f1b59b0d7a2eecf3ff35363fbb1d517c15857a4998",
+      "origin": "templates/cost-expense-control-v0.1/output/reference-slate/qa/slide-06.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC07.png",
+      "bytes": 97539,
+      "sha256": "33f05dabec9c3741e6351195f9dce03a25bbcb042e93a2928e998e43974216b1",
+      "origin": "templates/cost-expense-control-v0.1/output/reference-slate/qa/slide-07.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC08.png",
+      "bytes": 96480,
+      "sha256": "b81d9bd0013f5261811083981f08bdb303561469c0a28b1a635b058baa2b3805",
+      "origin": "templates/cost-expense-control-v0.1/output/reference-slate/qa/slide-08.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC01.png",
+      "bytes": 100333,
+      "sha256": "93b90bc7b64b3898160c7f8b9e1dfe92ae7610147e33572eb770ba3952e43dbe",
+      "origin": "templates/cost-expense-control-v0.1/output/shenzhen/qa/slide-01.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC02.png",
+      "bytes": 97292,
+      "sha256": "7ac7bc64c9fa548ef9f9ce0b87ff64db59931f12944a516aec1c861d8802efbf",
+      "origin": "templates/cost-expense-control-v0.1/output/shenzhen/qa/slide-02.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC03.png",
+      "bytes": 104549,
+      "sha256": "b1b3bf1114107f820d72db860bcc9bd7e4f2e1ab0c62772e88882f3570704e2c",
+      "origin": "templates/cost-expense-control-v0.1/output/shenzhen/qa/slide-03.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC04.png",
+      "bytes": 80398,
+      "sha256": "d8bb70709bcdc43581da85cac745e460b2215c731e11cd4537784a3beb6ce577",
+      "origin": "templates/cost-expense-control-v0.1/output/shenzhen/qa/slide-04.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC05.png",
+      "bytes": 104535,
+      "sha256": "6b7c6b0150a4dabd374e83830daf2369b62ae5038e0f24cbf2f3969739f88df5",
+      "origin": "templates/cost-expense-control-v0.1/output/shenzhen/qa/slide-05.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC06.png",
+      "bytes": 95799,
+      "sha256": "72768f4ed339c35c4034a7a5e46be870ced7674bb1f8266c4126b1f4fa5a3adb",
+      "origin": "templates/cost-expense-control-v0.1/output/shenzhen/qa/slide-06.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC07.png",
+      "bytes": 97561,
+      "sha256": "51d2d5454aaaa13644abffbf21ffeb20f186da9439b1dd9731645a1cbbafd119",
+      "origin": "templates/cost-expense-control-v0.1/output/shenzhen/qa/slide-07.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC08.png",
+      "bytes": 95880,
+      "sha256": "e07d708adb40f1e25b337ce7a63dd4ecca33d00aa13430c5132d921c77edf7c8",
+      "origin": "templates/cost-expense-control-v0.1/output/shenzhen/qa/slide-08.png"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/PRIOR_QA.md",
+      "bytes": 4348,
+      "sha256": "7cc0fe1bd49059ae8fb16e48c73ecccbe59ff049665bc9a791e90a8c88ceba4d",
+      "origin": "templates/cost-expense-control-v0.1/QA.md"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/README.md",
+      "bytes": 878,
+      "sha256": "f8190e13c8253a00a3942f8c3b2d3529b43130f6893d833bade3755648390183",
+      "origin": "packaging documentation"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/samples/reference-slate.pptx",
+      "bytes": 576232,
+      "sha256": "4204e299c3fde607de27f4024d08aad4f34dcae1d0811ca770a55ec1e6f64be2",
+      "origin": "templates/cost-expense-control-v0.1/output/reference-slate/成本费用管控版式样张.pptx"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/samples/shenzhen.pptx",
+      "bytes": 575824,
+      "sha256": "9acaf89d0472af5156411311d311673ee422e30cc48e92cc1d272f11f6ebac0a",
+      "origin": "templates/cost-expense-control-v0.1/output/shenzhen/成本费用管控版式样张.pptx"
+    },
+    {
+      "path": "native/cost-expense-control-v0.1/themes.json",
+      "bytes": 674,
+      "sha256": "f0c09346ebd5ccc654bc3742fac62fff51a09532ae1fbe74127eae2a85e24bc4",
+      "origin": "templates/cost-expense-control-v0.1/themes.json"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/build.cjs",
+      "bytes": 16372,
+      "sha256": "f53b8db50aa4f32822ebb28b1730068446baf43a14f0617d63af548191fafb97",
+      "origin": "templates/finance-analysis-v0.1/build.cjs"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/data.json",
+      "bytes": 1776,
+      "sha256": "ecd68a5b7fe793c0026c2efb2937cf8fed337acc8d6dc5421a5a3136ae8ed5d3",
+      "origin": "templates/finance-analysis-v0.1/data.json"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/patterns.json",
+      "bytes": 2191,
+      "sha256": "3d98a6a5b257786f9e867e348b0988c1ff44e3cee995a26fecca4dde8b0777f2",
+      "origin": "templates/finance-analysis-v0.1/patterns.json"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/reference-red/FA02.png",
+      "bytes": 94804,
+      "sha256": "52296a5cc42d7dd31395ebb74b6dc043463dd191d7b2ed58e40a41131df49e20",
+      "origin": "templates/finance-analysis-v0.1/output/reference-red-v3/qa-final/slide-01.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/reference-red/FA03.png",
+      "bytes": 98476,
+      "sha256": "017826fd36358ca7fbd541689d68ff677f43729512c8ba534887a43bdfb3bd8d",
+      "origin": "templates/finance-analysis-v0.1/output/reference-red-v3/qa-final/slide-02.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/reference-red/FA04.png",
+      "bytes": 90546,
+      "sha256": "55d777d03a32f0383f43ca77eff3552846e4f8ae563c2ba7cf6d819499261b75",
+      "origin": "templates/finance-analysis-v0.1/output/reference-red-v3/qa-final/slide-03.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/reference-red/FA05.png",
+      "bytes": 92443,
+      "sha256": "a6244b9b3dd759fbcd92a4ae5b7745feff9eecefffee68e2d3d95bd320e09bf6",
+      "origin": "templates/finance-analysis-v0.1/output/reference-red-v3/qa-final/slide-04.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/reference-red/FA06.png",
+      "bytes": 85098,
+      "sha256": "8216454256eb2bb6f7f05d964763236ca76d21b95b18325eb7c1fe11b09a26ec",
+      "origin": "templates/finance-analysis-v0.1/output/reference-red-v3/qa-final/slide-05.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/reference-red/FA07.png",
+      "bytes": 86427,
+      "sha256": "6e330ff111039aadb84186d7d1921b541b5b0339ec375919440817cbc60cf641",
+      "origin": "templates/finance-analysis-v0.1/output/reference-red-v3/qa-final/slide-06.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/reference-red/FA08.png",
+      "bytes": 96165,
+      "sha256": "df859a761f65d9d5b82edf9547123223011f3941411b43981de78f868242c732",
+      "origin": "templates/finance-analysis-v0.1/output/reference-red-v3/qa-final/slide-07.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/reference-red/FA09.png",
+      "bytes": 89071,
+      "sha256": "79ff74e24d581112a89a8b6ec55054caf9d39c05fd2de70d34d1115d77b0c982",
+      "origin": "templates/finance-analysis-v0.1/output/reference-red-v3/qa-final/slide-08.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/reference-red/FA10.png",
+      "bytes": 103413,
+      "sha256": "fbe92880ed96d250bad597d82b1f6be753d11de0ed7561e77a3b53780de263d8",
+      "origin": "templates/finance-analysis-v0.1/output/reference-red-v3/qa-final/slide-09.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/shenzhen/FA02.png",
+      "bytes": 95136,
+      "sha256": "661209252970c0fcc6e32e1857f2aebf16515d4da429563217a42c67641e5232",
+      "origin": "templates/finance-analysis-v0.1/output/shenzhen-v6/qa-final/slide-01.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/shenzhen/FA03.png",
+      "bytes": 99285,
+      "sha256": "dfe523d223c926d9a1a64135ce1ae7b5e7bd4a057d5d38fadfd918fd03e82ba6",
+      "origin": "templates/finance-analysis-v0.1/output/shenzhen-v6/qa-final/slide-02.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/shenzhen/FA04.png",
+      "bytes": 91532,
+      "sha256": "3ebc95551946d10c3ef79f7bcaae9c8c57bf7137d6b09960317a7ada65b794c5",
+      "origin": "templates/finance-analysis-v0.1/output/shenzhen-v6/qa-final/slide-03.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/shenzhen/FA05.png",
+      "bytes": 92597,
+      "sha256": "56d169f6612ea301fdf525791b9b053dcc06ebf22c8234df1ddf4244816de1c8",
+      "origin": "templates/finance-analysis-v0.1/output/shenzhen-v6/qa-final/slide-04.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/shenzhen/FA06.png",
+      "bytes": 86110,
+      "sha256": "3ded65abe97127919d347c6bb4a2a238e2e1d5981af072409d12f945602088a5",
+      "origin": "templates/finance-analysis-v0.1/output/shenzhen-v6/qa-final/slide-05.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/shenzhen/FA07.png",
+      "bytes": 86328,
+      "sha256": "a79eaa95dfcd92c578c56cbfac50c01060f52ec85bc1d4d0f6f82427cb345e4c",
+      "origin": "templates/finance-analysis-v0.1/output/shenzhen-v6/qa-final/slide-06.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/shenzhen/FA08.png",
+      "bytes": 96861,
+      "sha256": "5c8293071aa578778ea39acf58021bef8726aa880a6977442bcd449ac17c83c6",
+      "origin": "templates/finance-analysis-v0.1/output/shenzhen-v6/qa-final/slide-07.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/shenzhen/FA09.png",
+      "bytes": 89585,
+      "sha256": "f0bfe8fb1ca2ab9876f5cca15fca9b39dcf8187248243bffab017dd90b4e8aab",
+      "origin": "templates/finance-analysis-v0.1/output/shenzhen-v6/qa-final/slide-08.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/previews/shenzhen/FA10.png",
+      "bytes": 103780,
+      "sha256": "a1096c0af6af9034f2cf2809b29eb00e5ca92467a4771edb36b53e0b91d9d004",
+      "origin": "templates/finance-analysis-v0.1/output/shenzhen-v6/qa-final/slide-09.png"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/PRIOR_QA.md",
+      "bytes": 4102,
+      "sha256": "706608d3fad5f3cbc2b2035bc3dc38dc46581946f7209d46669780b53bc9e12e",
+      "origin": "templates/finance-analysis-v0.1/QA.md"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/README.md",
+      "bytes": 874,
+      "sha256": "a45abbc4766f21407869b46da3109600cab1d67acda975bda0620e622042b62c",
+      "origin": "packaging documentation"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/samples/reference-red.pptx",
+      "bytes": 727134,
+      "sha256": "d2ec19691770dc4ef55366dfc863d329e620e27580be172115ef17d955db3bc0",
+      "origin": "templates/finance-analysis-v0.1/output/reference-red-v3/财务分析版式样张_reference-red.pptx"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/samples/shenzhen.pptx",
+      "bytes": 727179,
+      "sha256": "8ec6839905a11d2fbca0db36c30ac46462310a09e0a3d85a2d0af2ca6307d5f0",
+      "origin": "templates/finance-analysis-v0.1/output/shenzhen-v6/财务分析版式样张_shenzhen.pptx"
+    },
+    {
+      "path": "native/finance-analysis-v0.1/themes.json",
+      "bytes": 1256,
+      "sha256": "2b81f3b847b51f905bdc909a7f13a4f735c6eff1898d5e2a99f70357b3e2be3b",
+      "origin": "templates/finance-analysis-v0.1/themes.json"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/build.cjs",
+      "bytes": 9490,
+      "sha256": "d400cfc4f05a0c74c541c0ed73427e9a75a52ffc0b3624f4d27069d10269abc7",
+      "origin": "templates/financial-review-editorial-v0.1/build.cjs"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/data.json",
+      "bytes": 1286,
+      "sha256": "ff1597d34ae0892d82acc59ca6621ae414ad551a4e728257a2e103f8fe86294a",
+      "origin": "templates/financial-review-editorial-v0.1/data.json"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/patterns.json",
+      "bytes": 1551,
+      "sha256": "a03e0b3a43b8b1a32a212f8ba84baed909d3f8dcb10d7f49d2ff68bbd6418319",
+      "origin": "templates/financial-review-editorial-v0.1/patterns.json"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER01.png",
+      "bytes": 76755,
+      "sha256": "330ebdad6aff6a508e34b1e1fa2457655385fa12f6d26d69a44de3a10015cc1a",
+      "origin": "templates/financial-review-editorial-v0.1/output/reference-purple/qa/slide-01.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER02.png",
+      "bytes": 82810,
+      "sha256": "32b127057799424a8702f466cea8f8026004f2e584f0776a092c7c356222e98b",
+      "origin": "templates/financial-review-editorial-v0.1/output/reference-purple/qa/slide-02.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER03.png",
+      "bytes": 89887,
+      "sha256": "371a4979b4916549284f7f99372a8b799ff9d3bc196d4322c2ac987aed9d50bf",
+      "origin": "templates/financial-review-editorial-v0.1/output/reference-purple/qa/slide-03.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER04.png",
+      "bytes": 103318,
+      "sha256": "9f03fc84bda3c0cf36251148d51263b808dabf0d67348e60835fa5a57b103d3d",
+      "origin": "templates/financial-review-editorial-v0.1/output/reference-purple/qa/slide-04.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER05.png",
+      "bytes": 100332,
+      "sha256": "6bf3af76534e01ae0686d33344945023cc63457b78ea221b3939d1dcc3b672a2",
+      "origin": "templates/financial-review-editorial-v0.1/output/reference-purple/qa/slide-05.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER06.png",
+      "bytes": 79822,
+      "sha256": "49dc031bde4bf2edfea6bc8455d0ad97c8e579a0e6229a3294dc7a61673052af",
+      "origin": "templates/financial-review-editorial-v0.1/output/reference-purple/qa/slide-06.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER01.png",
+      "bytes": 77610,
+      "sha256": "861e91fcb6d5246d8978cc32b3425990d14a96f1c55aa77fd058493d9e51bc0b",
+      "origin": "templates/financial-review-editorial-v0.1/output/shenzhen/qa/slide-01.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER02.png",
+      "bytes": 82038,
+      "sha256": "1b9ade49fdac5e3674c0e6fddcc53915f66a859667f131e6b89b6592f6f5ef43",
+      "origin": "templates/financial-review-editorial-v0.1/output/shenzhen/qa/slide-02.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER03.png",
+      "bytes": 90337,
+      "sha256": "1763ec30e2cb84e17a5b6c3d75d725197fda0570c57162430bf32128bdd61ee7",
+      "origin": "templates/financial-review-editorial-v0.1/output/shenzhen/qa/slide-03.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER04.png",
+      "bytes": 102923,
+      "sha256": "48c9da055585852b348f0aecd33b6b173195aac9e36ae3f2458607f6de8a3f6f",
+      "origin": "templates/financial-review-editorial-v0.1/output/shenzhen/qa/slide-04.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER05.png",
+      "bytes": 100159,
+      "sha256": "d58fa0e599799cd51901a79de37569f927e4152d4e82c68201d9cf5dba9dd9dc",
+      "origin": "templates/financial-review-editorial-v0.1/output/shenzhen/qa/slide-05.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER06.png",
+      "bytes": 82358,
+      "sha256": "fd6cdff4c89bad7b8901d57448f335b906044585947f0907fa02e898ca3cc958",
+      "origin": "templates/financial-review-editorial-v0.1/output/shenzhen/qa/slide-06.png"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/PRIOR_QA.md",
+      "bytes": 3124,
+      "sha256": "c1f718a794bf190ed56af9cbc1d1a341dc71b751609753ebde829b2a80ea501d",
+      "origin": "templates/financial-review-editorial-v0.1/QA.md"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/README.md",
+      "bytes": 884,
+      "sha256": "1fa9fcd78b5d96d7e21a413e2e3a4cd587a0db1dc8f075483df3005b0ee57cec",
+      "origin": "packaging documentation"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/samples/reference-purple.pptx",
+      "bytes": 335967,
+      "sha256": "70751f3f88d6bd050db6a23862d3e913688d11e871405a3feee266dd49869d43",
+      "origin": "templates/financial-review-editorial-v0.1/output/reference-purple/经营财报版式样张.pptx"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/samples/shenzhen.pptx",
+      "bytes": 335739,
+      "sha256": "2b1ef2e530bf79c75a9d2528e1ae5e8c4bece2eb270f464c549e70c44a0a29e0",
+      "origin": "templates/financial-review-editorial-v0.1/output/shenzhen/经营财报版式样张.pptx"
+    },
+    {
+      "path": "native/financial-review-editorial-v0.1/themes.json",
+      "bytes": 557,
+      "sha256": "2aa1c106de5f69267818359a9aba909649ba532abf4058ec30b0fb38a9701d51",
+      "origin": "templates/financial-review-editorial-v0.1/themes.json"
+    },
+    {
+      "path": "visual/AR-1BBD768/layout.json",
+      "bytes": 1322,
+      "sha256": "f389101af6459a074cde66e28dfbf0073543954d2128f364651ea962ae64fcbd",
+      "origin": "generated layout descriptor"
+    },
+    {
+      "path": "visual/AR-1BBD768/reference.jpg",
+      "bytes": 725280,
+      "sha256": "b414fb8da2c01ba3b77cf243935ca27f486c0cb399c4913d934082c73aa51291",
+      "origin": "https://mmbiz.qpic.cn/mmbiz_png/MUEkHKCYU2oJjDLYLdgP4dLgTm4sFue3zENpPS1hV0gTa0uCw2OOaiafcXqfOHEwaiaUIec0icicQ3yZwxOnr9RT2kB8QxYZYkrq1VGs8icyV1mg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5"
+    },
+    {
+      "path": "visual/AR-9004685/layout.json",
+      "bytes": 1240,
+      "sha256": "fc4543168c4646d9627b6227863aaf24ef27ff9a1928b036f914f401d068a9fb",
+      "origin": "generated layout descriptor"
+    },
+    {
+      "path": "visual/AR-9004685/reference.jpg",
+      "bytes": 71140,
+      "sha256": "35c95602db916dce70fb0c0316500deef8bf36c51b7814f526cef1fbb6b77adf",
+      "origin": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/U83UicmDfqVByUIsZRHVRC23iazMyFKHibvnLWWTFOn6n2TBxRia2h2uTw0vghkyWWqc4IMfXzjT3FUpuW241VLJ04Owj9Bq40V6k2OQIAA8v7g/640?wx_fmt=jpeg&from=appmsg#imgIndex=8"
+    },
+    {
+      "path": "visual/AR-AE44D32/layout.json",
+      "bytes": 1318,
+      "sha256": "6b62d746f7bd28ed7c4d8f182fc5e69a017043205660bf06a7544ff8ae27ea2d",
+      "origin": "generated layout descriptor"
+    },
+    {
+      "path": "visual/AR-AE44D32/reference.jpg",
+      "bytes": 89631,
+      "sha256": "e1681fb242f4a90ab8787e835ec6271cbca03253b70e5dae65313a5af2195441",
+      "origin": "https://mmbiz.qpic.cn/mmbiz_jpg/MUEkHKCYU2pjOo0EBYZmyoibugSQS35a0jvl8UWjY1fib6sHy6ImJUNHQ5EVUhSZCqoV4icIqpSwXkkzND4b7oibsylCCnHSx00ibvnQQkx7pFBM/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0"
+    },
+    {
+      "path": "visual/AR-B58AE2C/layout.json",
+      "bytes": 1326,
+      "sha256": "720a282c9514224726c0fab03f2ac97fb6ed8d98ed10d7bef2a2ed2e5347f028",
+      "origin": "generated layout descriptor"
+    },
+    {
+      "path": "visual/AR-B58AE2C/reference.jpg",
+      "bytes": 39643,
+      "sha256": "17405bd966d3442392d77d2657297350ddd621719816c0bcfe3ca5f13be550bb",
+      "origin": "https://mmbiz.qpic.cn/mmbiz_jpg/MUEkHKCYU2oNSx25OmD7cSKE9J99ru5yTYa6jNibjZT38OicuJic8ROTPU7mpSM0WFwl5SvhibvJG0qlF17ogvFWDSO1rjKUyFMVHf1reALibic6s/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=1"
+    },
+    {
+      "path": "visual/AR-C106114/layout.json",
+      "bytes": 1295,
+      "sha256": "cc5bb83b7b7363d8ef10025a48368b0df218253a14e7510339996cb5d9305b42",
+      "origin": "generated layout descriptor"
+    },
+    {
+      "path": "visual/AR-C106114/reference.jpg",
+      "bytes": 185066,
+      "sha256": "06b3252291329f6e171958c175d0c137154712b35fefb0ae795f0366eb4a14ee",
+      "origin": "https://mmbiz.qpic.cn/mmbiz_png/U83UicmDfqVC83T6eguIgeCsgKHOrjGR9CEXFh7iaVWTVhxjSt15b5WQvicvytgQuUkiaFYS5U6tI9ib80Ijx7wdW4vKuXFp7381yFyJcATzicjnc/640?wx_fmt=png&from=appmsg#imgIndex=5"
+    },
+    {
+      "path": "visual/AR-C318CDA/layout.json",
+      "bytes": 1314,
+      "sha256": "4ee20589396f133c382112d75bbbd2406a8fce0e0380cf1330baebba509833c6",
+      "origin": "generated layout descriptor"
+    },
+    {
+      "path": "visual/AR-C318CDA/reference.jpg",
+      "bytes": 661264,
+      "sha256": "7821f0e0c1485753cf08a0851cca82a356e6de14493bb5752cb5faa857ab7030",
+      "origin": "https://mmbiz.qpic.cn/sz_mmbiz_png/MUEkHKCYU2rRJmEvQ7lHM1QzvyETwR54n9UjdrF4PcrkKMmdO09SK1fb1kbKz6YQZgIWQ5Tl699jEaxiarfH9zw4HiapibS9w8ficwicNCTBgJoo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4"
+    },
+    {
+      "path": "visual/AR-D74DDF8/layout.json",
+      "bytes": 1319,
+      "sha256": "ab6fbba10ed7aad61e57135e89f0839e12fb4219b2c5e7b2341a6eab11ad11ba",
+      "origin": "generated layout descriptor"
+    },
+    {
+      "path": "visual/AR-D74DDF8/reference.jpg",
+      "bytes": 849712,
+      "sha256": "81206e3b16de90104e3af538c9359cf4f59539e488dd582c0c77749ef3015239",
+      "origin": "https://mmbiz.qpic.cn/mmbiz_png/bK6pWLibtriaXXibTcTBxeZ9Tv9C38KmiaqOJL9hDqIWJRxdo42zHjdAphujcUwbzU2VteVK4MOhWKl2JHPu4fnppCSaFSzoC7UdNsKY3ibHSbBY/640?from=appmsg&watermark=1#imgIndex=0"
+    },
+    {
+      "path": "visual/AR-E600A08/layout.json",
+      "bytes": 1332,
+      "sha256": "c09ad68a46e834b15989af626297b80f5e3d8e79df0c804eff3b63362e5b2804",
+      "origin": "generated layout descriptor"
+    },
+    {
+      "path": "visual/AR-E600A08/reference.jpg",
+      "bytes": 91614,
+      "sha256": "6819e06791bad8c7e0a771ee52d6c68d7d93db3ac09fae7dc59fe0a1dc7ed57f",
+      "origin": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/MUEkHKCYU2pQ5pT2BHBdOEMVggWtxPUZNZeMGN4TA5pEDXrCibpiajfEKQiaDQE58r5NdlxCQTicFCU1KUgQWxr3mKCiaa8nTQZTPe2nPmricnN7Y/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=2"
+    },
+    {
+      "path": "visual/AR-E704113/layout.json",
+      "bytes": 1348,
+      "sha256": "7813fdf15a68575b147e508219a7c0ef668cf245a8638c42a6093450590d3f74",
+      "origin": "generated layout descriptor"
+    },
+    {
+      "path": "visual/AR-E704113/reference.jpg",
+      "bytes": 48081,
+      "sha256": "7bbe3a70f2d4eb261826779cf5624bf78821680ffd04bf0930bb7414832e8f35",
+      "origin": "https://mmbiz.qpic.cn/mmbiz_jpg/MUEkHKCYU2oTs9dgzbLhaRUbeFWaXpkZclY992ydbqrjIicZtMhkvcvyVGNvenZiaLGyyjmxBWqU4eticRrVsbnrZfAiaPq9ibcY7LSsJ8iaPtS7I/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=3"
+    }
+  ]
+}

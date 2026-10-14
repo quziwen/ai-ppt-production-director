@@ -1,0 +1,2358 @@
+{
+  "schemaVersion": 1,
+  "id": "patrick-20261014",
+  "name": "Patrick 用户可选模板集",
+  "owner": "Patrick",
+  "version": "1.0.0",
+  "created": "2026-10-14",
+  "defaultTheme": "shenzhen",
+  "selection": {
+    "count": 40,
+    "source": "visible-gallery-selection-and-current-user-instruction"
+  },
+  "groups": [
+    {
+      "id": "FA",
+      "name": "现金流与营运资金",
+      "count": 9
+    },
+    {
+      "id": "ER",
+      "name": "经营财报",
+      "count": 6
+    },
+    {
+      "id": "CC",
+      "name": "预算与成本费用",
+      "count": 8
+    },
+    {
+      "id": "HTML",
+      "name": "HTML 演示版式",
+      "count": 8
+    },
+    {
+      "id": "VISUAL",
+      "name": "文章视觉参考",
+      "count": 9
+    }
+  ],
+  "entries": [
+    {
+      "id": "FA02",
+      "name": "分析工作流",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/S6rDe9YA3Ijo5Au45Z5p9g",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-red"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/previews/shenzhen/FA02.png"
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/previews/reference-red/FA02.png"
+        }
+      ],
+      "resources": [
+        "native/finance-analysis-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "现金流与营运资金",
+      "use": "协作方法、诊断过程、经营复盘",
+      "slots": [
+        "结论标题",
+        "五步流程",
+        "每步输入/动作/输出",
+        "底部共识"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 1
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/samples/reference-red.pptx",
+          "slideIndex": 1
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-and-shape-based; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/finance-analysis-v0.1/README.md"
+    },
+    {
+      "id": "FA03",
+      "name": "指标总览＋趋势＋现金桥",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/S6rDe9YA3Ijo5Au45Z5p9g",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-red"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/previews/shenzhen/FA03.png"
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/previews/reference-red/FA03.png"
+        }
+      ],
+      "resources": [
+        "native/finance-analysis-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "现金流与营运资金",
+      "use": "业绩与现金表现的背离",
+      "slots": [
+        "六指标",
+        "左趋势组合图",
+        "右瀑布图",
+        "判断条"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 2
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/samples/reference-red.pptx",
+          "slideIndex": 2
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-and-shape-based; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/finance-analysis-v0.1/README.md"
+    },
+    {
+      "id": "FA04",
+      "name": "主因拆解＋右侧双证据",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/S6rDe9YA3Ijo5Au45Z5p9g",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-red"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/previews/shenzhen/FA04.png"
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/previews/reference-red/FA04.png"
+        }
+      ],
+      "resources": [
+        "native/finance-analysis-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "现金流与营运资金",
+      "use": "营运资金、差异成因，内容密集阅读页",
+      "slots": [
+        "六指标",
+        "左瀑布图",
+        "右上堆积",
+        "右下排名"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 3
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/samples/reference-red.pptx",
+          "slideIndex": 3
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-and-shape-based; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/finance-analysis-v0.1/README.md"
+    },
+    {
+      "id": "FA05",
+      "name": "支出结构＋投入产出节奏",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/S6rDe9YA3Ijo5Au45Z5p9g",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-red"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/previews/shenzhen/FA05.png"
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/previews/reference-red/FA05.png"
+        }
+      ],
+      "resources": [
+        "native/finance-analysis-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "现金流与营运资金",
+      "use": "投资、费用投入与结果，双轴须明确单位",
+      "slots": [
+        "六指标",
+        "左横向排名",
+        "右柱线组合",
+        "条件提示"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 4
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/samples/reference-red.pptx",
+          "slideIndex": 4
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-and-shape-based; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/finance-analysis-v0.1/README.md"
+    },
+    {
+      "id": "FA06",
+      "name": "渠道结构＋净变化",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/S6rDe9YA3Ijo5Au45Z5p9g",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-red"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/previews/shenzhen/FA06.png"
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/previews/reference-red/FA06.png"
+        }
+      ],
+      "resources": [
+        "native/finance-analysis-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "现金流与营运资金",
+      "use": "融资、资源筹措或渠道贡献",
+      "slots": [
+        "六指标",
+        "左渠道排名",
+        "右瀑布图",
+        "风险条"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 5
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/samples/reference-red.pptx",
+          "slideIndex": 5
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-and-shape-based; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/finance-analysis-v0.1/README.md"
+    },
+    {
+      "id": "FA07",
+      "name": "业务对比＋现金影响",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/S6rDe9YA3Ijo5Au45Z5p9g",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-red"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/previews/shenzhen/FA07.png"
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/previews/reference-red/FA07.png"
+        }
+      ],
+      "resources": [
+        "native/finance-analysis-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "现金流与营运资金",
+      "use": "增长贡献与现金压力并存",
+      "slots": [
+        "六指标",
+        "左分组柱",
+        "右瀑布图",
+        "原因链"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 6
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/samples/reference-red.pptx",
+          "slideIndex": 6
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-and-shape-based; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/finance-analysis-v0.1/README.md"
+    },
+    {
+      "id": "FA08",
+      "name": "结构变化＋效率分化",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/S6rDe9YA3Ijo5Au45Z5p9g",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-red"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/previews/shenzhen/FA08.png"
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/previews/reference-red/FA08.png"
+        }
+      ],
+      "resources": [
+        "native/finance-analysis-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "现金流与营运资金",
+      "use": "库存、资产与周转；数量和天数不能混轴",
+      "slots": [
+        "六指标",
+        "左堆积对比",
+        "右柱线组合",
+        "优先级提示"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 7
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/samples/reference-red.pptx",
+          "slideIndex": 7
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-and-shape-based; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/finance-analysis-v0.1/README.md"
+    },
+    {
+      "id": "FA09",
+      "name": "预测桥＋三情景",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/S6rDe9YA3Ijo5Au45Z5p9g",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-red"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/previews/shenzhen/FA09.png"
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/previews/reference-red/FA09.png"
+        }
+      ],
+      "resources": [
+        "native/finance-analysis-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "现金流与营运资金",
+      "use": "现金、预算、产能等情景比较；必须注明假设",
+      "slots": [
+        "左预测瀑布",
+        "右三情景",
+        "底部措施路径"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 8
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/samples/reference-red.pptx",
+          "slideIndex": 8
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-and-shape-based; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/finance-analysis-v0.1/README.md"
+    },
+    {
+      "id": "FA10",
+      "name": "措施表＋改善结果",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/S6rDe9YA3Ijo5Au45Z5p9g",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-red"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/previews/shenzhen/FA10.png"
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/previews/reference-red/FA10.png"
+        }
+      ],
+      "resources": [
+        "native/finance-analysis-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "现金流与营运资金",
+      "use": "落实行动与预计效果；预计不等于已实现",
+      "slots": [
+        "左措施/责任/贡献表",
+        "右前后对比",
+        "管理决策要点"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/finance-analysis-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 9
+        },
+        {
+          "theme": "reference-red",
+          "path": "native/finance-analysis-v0.1/samples/reference-red.pptx",
+          "slideIndex": 9
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-and-shape-based; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/finance-analysis-v0.1/README.md"
+    },
+    {
+      "id": "ER01",
+      "name": "大数字概览与评审目标",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/0-iTwczyESrr2J88LyaMxg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-purple"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER01.png"
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER01.png"
+        }
+      ],
+      "resources": [
+        "native/financial-review-editorial-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "经营财报",
+      "use": "开场业绩概览，3—4个关键指标",
+      "slots": [
+        "结论标题",
+        "三项大指标",
+        "左下现金指标",
+        "右下解读块"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 1
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/samples/reference-purple.pptx",
+          "slideIndex": 1
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/financial-review-editorial-v0.1/README.md"
+    },
+    {
+      "id": "ER02",
+      "name": "结构摘要与本期明细",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/0-iTwczyESrr2J88LyaMxg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-purple"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER02.png"
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER02.png"
+        }
+      ],
+      "resources": [
+        "native/financial-review-editorial-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "经营财报",
+      "use": "多地区/多业务结构，过密则拆阅读附录",
+      "slots": [
+        "顶部三项结构观察",
+        "下方明细矩阵",
+        "本期列高亮"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 2
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/samples/reference-purple.pptx",
+          "slideIndex": 2
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/financial-review-editorial-v0.1/README.md"
+    },
+    {
+      "id": "ER03",
+      "name": "四指标与趋势",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/0-iTwczyESrr2J88LyaMxg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-purple"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER03.png"
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER03.png"
+        }
+      ],
+      "resources": [
+        "native/financial-review-editorial-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "经营财报",
+      "use": "订单、收入、客户规模与可比期间趋势",
+      "slots": [
+        "左侧2×2数字与解释",
+        "右侧趋势柱图",
+        "左下管理含义"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 3
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/samples/reference-purple.pptx",
+          "slideIndex": 3
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/financial-review-editorial-v0.1/README.md"
+    },
+    {
+      "id": "ER04",
+      "name": "经营解读与回报矩阵",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/0-iTwczyESrr2J88LyaMxg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-purple"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER04.png"
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER04.png"
+        }
+      ],
+      "resources": [
+        "native/financial-review-editorial-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "经营财报",
+      "use": "利润率、资本回报、效率指标；不混淆单位",
+      "slots": [
+        "左侧指标解释",
+        "右侧多期矩阵",
+        "突出最新期"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 4
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/samples/reference-purple.pptx",
+          "slideIndex": 4
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/financial-review-editorial-v0.1/README.md"
+    },
+    {
+      "id": "ER05",
+      "name": "现金指标与勾稽表",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/0-iTwczyESrr2J88LyaMxg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-purple"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER05.png"
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER05.png"
+        }
+      ],
+      "resources": [
+        "native/financial-review-editorial-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "经营财报",
+      "use": "经营现金减资本支出等口径清楚的勾稽",
+      "slots": [
+        "左侧现金数字及判断",
+        "右侧前后期间表",
+        "结果行突出"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 5
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/samples/reference-purple.pptx",
+          "slideIndex": 5
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/financial-review-editorial-v0.1/README.md"
+    },
+    {
+      "id": "ER06",
+      "name": "六项管理讨论",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/0-iTwczyESrr2J88LyaMxg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-purple"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/previews/shenzhen/ER06.png"
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/previews/reference-purple/ER06.png"
+        }
+      ],
+      "resources": [
+        "native/financial-review-editorial-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "经营财报",
+      "use": "可独立讨论的管理议题；不得把有先后依赖的流程硬放成六宫格",
+      "slots": [
+        "六项编号议题",
+        "每项动作与条件",
+        "统一列网格"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/financial-review-editorial-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 6
+        },
+        {
+          "theme": "reference-purple",
+          "path": "native/financial-review-editorial-v0.1/samples/reference-purple.pptx",
+          "slideIndex": 6
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/financial-review-editorial-v0.1/README.md"
+    },
+    {
+      "id": "CC01",
+      "name": "封面与分析范围",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/NHaS4-Wy3B5MNCv2q72wmg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-slate"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC01.png"
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC01.png"
+        }
+      ],
+      "resources": [
+        "native/cost-expense-control-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "预算与成本费用",
+      "use": "月度/季度财务汇报入口",
+      "slots": [
+        "深色标题区",
+        "右侧期间与范围",
+        "报告要回答的三项问题"
+      ],
+      "guard": "",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 1
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/samples/reference-slate.pptx",
+          "slideIndex": 1
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/cost-expense-control-v0.1/README.md"
+    },
+    {
+      "id": "CC02",
+      "name": "预算执行总览",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/NHaS4-Wy3B5MNCv2q72wmg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-slate"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC02.png"
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC02.png"
+        }
+      ],
+      "resources": [
+        "native/cost-expense-control-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "预算与成本费用",
+      "use": "图表不得将总额与包含在其中的子项相加；KPI可按问题增减",
+      "slots": [
+        "四项关键指标",
+        "成本费用构成环图",
+        "实际与预算比较柱图"
+      ],
+      "guard": "图表不得将总额与包含在其中的子项相加；KPI可按问题增减",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 2
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/samples/reference-slate.pptx",
+          "slideIndex": 2
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/cost-expense-control-v0.1/README.md"
+    },
+    {
+      "id": "CC03",
+      "name": "预算执行明细",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/NHaS4-Wy3B5MNCv2q72wmg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-slate"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC03.png"
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC03.png"
+        }
+      ],
+      "resources": [
+        "native/cost-expense-control-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "预算与成本费用",
+      "use": "明细行互斥；差异=实际-预算；预算零值显示不适用",
+      "slots": [
+        "主要差异结论",
+        "项目/实际/预算/差异/差异率原生表格",
+        "下方口径说明"
+      ],
+      "guard": "明细行互斥；差异=实际-预算；预算零值显示不适用",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 3
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/samples/reference-slate.pptx",
+          "slideIndex": 3
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/cost-expense-control-v0.1/README.md"
+    },
+    {
+      "id": "CC04",
+      "name": "趋势与异常",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/NHaS4-Wy3B5MNCv2q72wmg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-slate"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC04.png"
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC04.png"
+        }
+      ],
+      "resources": [
+        "native/cost-expense-control-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "预算与成本费用",
+      "use": "同期同口径；趋势不能独自证明原因，不用双轴混淆单位",
+      "slots": [
+        "左侧多期实际与预算趋势",
+        "右侧项目差异排名",
+        "页底核查问题"
+      ],
+      "guard": "同期同口径；趋势不能独自证明原因，不用双轴混淆单位",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 4
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/samples/reference-slate.pptx",
+          "slideIndex": 4
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/cost-expense-control-v0.1/README.md"
+    },
+    {
+      "id": "CC05",
+      "name": "材料量价差异",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/NHaS4-Wy3B5MNCv2q72wmg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-slate"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC05.png"
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC05.png"
+        }
+      ],
+      "resources": [
+        "native/cost-expense-control-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "预算与成本费用",
+      "use": "本包公式按标准价分解数量、按实际量分解价格，结果必须勾稽",
+      "slots": [
+        "标准/实际用量与价格表",
+        "数量影响和价格影响分组柱图",
+        "分解公式及核查提示"
+      ],
+      "guard": "本包公式按标准价分解数量、按实际量分解价格，结果必须勾稽",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 5
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/samples/reference-slate.pptx",
+          "slideIndex": 5
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/cost-expense-control-v0.1/README.md"
+    },
+    {
+      "id": "CC06",
+      "name": "产品单位成本",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/NHaS4-Wy3B5MNCv2q72wmg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-slate"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC06.png"
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC06.png"
+        }
+      ],
+      "resources": [
+        "native/cost-expense-control-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "预算与成本费用",
+      "use": "各产品同计量单位；单位成本不能不加权直接汇总",
+      "slots": [
+        "材料/人工/制造费用明细",
+        "按产品分组的堆积柱图",
+        "可比口径与产量提醒"
+      ],
+      "guard": "各产品同计量单位；单位成本不能不加权直接汇总",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 6
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/samples/reference-slate.pptx",
+          "slideIndex": 6
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/cost-expense-control-v0.1/README.md"
+    },
+    {
+      "id": "CC07",
+      "name": "部门费用与可控项",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/NHaS4-Wy3B5MNCv2q72wmg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-slate"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC07.png"
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC07.png"
+        }
+      ],
+      "resources": [
+        "native/cost-expense-control-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "预算与成本费用",
+      "use": "固定/变动与可控/不可控分别判断；不从部门名自动认定可控性",
+      "slots": [
+        "左侧部门实际预算条形图",
+        "右侧可控性与负责人确认表",
+        "动作优先级提示"
+      ],
+      "guard": "固定/变动与可控/不可控分别判断；不从部门名自动认定可控性",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 7
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/samples/reference-slate.pptx",
+          "slideIndex": 7
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/cost-expense-control-v0.1/README.md"
+    },
+    {
+      "id": "CC08",
+      "name": "异常追踪与行动台账",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/NHaS4-Wy3B5MNCv2q72wmg",
+      "sourceKind": "现有 PowerPoint 实际渲染图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference-slate"
+      ],
+      "previewImages": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/previews/shenzhen/CC08.png"
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/previews/reference-slate/CC08.png"
+        }
+      ],
+      "resources": [
+        "native/cost-expense-control-v0.1"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "native-pptx-pattern",
+      "group": "预算与成本费用",
+      "use": "不自动评分、不自动批准责任人、不将候选动作写成完成",
+      "slots": [
+        "项目/差异/待核查证据/责任角色/下一动作/状态表",
+        "待核查差异汇总",
+        "会议要确认的事项"
+      ],
+      "guard": "不自动评分、不自动批准责任人、不将候选动作写成完成",
+      "nativeDecks": [
+        {
+          "theme": "shenzhen",
+          "path": "native/cost-expense-control-v0.1/samples/shenzhen.pptx",
+          "slideIndex": 8
+        },
+        {
+          "theme": "reference-slate",
+          "path": "native/cost-expense-control-v0.1/samples/reference-slate.pptx",
+          "slideIndex": 8
+        }
+      ],
+      "editability": {
+        "text": "native",
+        "table": "native-where-present",
+        "chart": "native-where-present; data-refresh-unverified",
+        "html": "static-preview"
+      },
+      "verification": "Existing sample package and prior QA retained; this import does not certify new round trips.",
+      "originalProjectResource": "../../templates/cost-expense-control-v0.1/README.md"
+    },
+    {
+      "id": "T-C03B78D",
+      "name": "8-Bit Orbit",
+      "selected": {
+        "layout": true,
+        "chart": false,
+        "color": false
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://github.com/zarazhangrui/beautiful-html-templates/blob/main/templates/8-bit-orbit/template.html",
+      "sourceKind": "仓库原图 / SVG",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "html/8-bit-orbit/preview-1.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/8-bit-orbit/preview-2.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/8-bit-orbit/preview-3.png"
+        }
+      ],
+      "resources": [
+        "html/8-bit-orbit"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "html-layout-template",
+      "group": "HTML 演示版式",
+      "use": "观点分享、章节、对比与视觉叙事；按内容密度选择。只勾选版式时以 shenzhen 为默认主题，源 HTML 原色仅作参考；制作副本中调整变量，不修改模板原件。",
+      "templateHtml": "html/8-bit-orbit/template.html",
+      "referencePaletteApproved": false,
+      "editability": {
+        "html": "editable-source",
+        "pptx": "requires-native-export-and-QA"
+      },
+      "verification": "Original HTML and official preview retained; PowerPoint export is a separate production step.",
+      "sourcePalette": [
+        "#F0A6CA",
+        "#5EDCF4",
+        "#F4D03F",
+        "#0F1B3D",
+        "#0A0E27",
+        "#E2D5F2"
+      ]
+    },
+    {
+      "id": "T-54F5C1A",
+      "name": "Blue Professional",
+      "selected": {
+        "layout": true,
+        "chart": false,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://github.com/zarazhangrui/beautiful-html-templates/blob/main/templates/blue-professional/template.html",
+      "sourceKind": "仓库原图 / SVG",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "html/blue-professional/preview-1.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/blue-professional/preview-2.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/blue-professional/preview-3.png"
+        }
+      ],
+      "resources": [
+        "html/blue-professional"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "html-layout-template",
+      "group": "HTML 演示版式",
+      "use": "观点分享、章节、对比与视觉叙事；按内容密度选择。只勾选版式时以 shenzhen 为默认主题，源 HTML 原色仅作参考；制作副本中调整变量，不修改模板原件。",
+      "templateHtml": "html/blue-professional/template.html",
+      "referencePaletteApproved": true,
+      "editability": {
+        "html": "editable-source",
+        "pptx": "requires-native-export-and-QA"
+      },
+      "verification": "Original HTML and official preview retained; PowerPoint export is a separate production step.",
+      "sourcePalette": [
+        "#fdfae7",
+        "#1e2bfa",
+        "#111111",
+        "#6b6b6b",
+        "#9a9a9a",
+        "#059669",
+        "#dc2626"
+      ]
+    },
+    {
+      "id": "T-7ECA850",
+      "name": "Broadside",
+      "selected": {
+        "layout": true,
+        "chart": false,
+        "color": false
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://github.com/zarazhangrui/beautiful-html-templates/blob/main/templates/broadside/template.html",
+      "sourceKind": "仓库原图 / SVG",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "html/broadside/preview-1.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/broadside/preview-2.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/broadside/preview-3.png"
+        }
+      ],
+      "resources": [
+        "html/broadside"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "html-layout-template",
+      "group": "HTML 演示版式",
+      "use": "观点分享、章节、对比与视觉叙事；按内容密度选择。只勾选版式时以 shenzhen 为默认主题，源 HTML 原色仅作参考；制作副本中调整变量，不修改模板原件。",
+      "templateHtml": "html/broadside/template.html",
+      "referencePaletteApproved": false,
+      "editability": {
+        "html": "editable-source",
+        "pptx": "requires-native-export-and-QA"
+      },
+      "verification": "Original HTML and official preview retained; PowerPoint export is a separate production step.",
+      "sourcePalette": [
+        "#111111",
+        "#1a1a18",
+        "#e85d26",
+        "#f0ece5",
+        "#888880",
+        "#505048",
+        "#2a1810",
+        "#282826",
+        "#111",
+        "#3a3a38",
+        "#555550"
+      ]
+    },
+    {
+      "id": "T-5C8819C",
+      "name": "Cartesian",
+      "selected": {
+        "layout": true,
+        "chart": false,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://github.com/zarazhangrui/beautiful-html-templates/blob/main/templates/cartesian/template.html",
+      "sourceKind": "仓库原图 / SVG",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "html/cartesian/preview-1.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/cartesian/preview-2.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/cartesian/preview-3.png"
+        }
+      ],
+      "resources": [
+        "html/cartesian"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "html-layout-template",
+      "group": "HTML 演示版式",
+      "use": "观点分享、章节、对比与视觉叙事；按内容密度选择。只勾选版式时以 shenzhen 为默认主题，源 HTML 原色仅作参考；制作副本中调整变量，不修改模板原件。",
+      "templateHtml": "html/cartesian/template.html",
+      "referencePaletteApproved": true,
+      "editability": {
+        "html": "editable-source",
+        "pptx": "requires-native-export-and-QA"
+      },
+      "verification": "Original HTML and official preview retained; PowerPoint export is a separate production step.",
+      "sourcePalette": [
+        "#ede8e0",
+        "#e2dbd1",
+        "#1a1a1a",
+        "#5a5a5a",
+        "#8a8178",
+        "#b8b0a4",
+        "#8592",
+        "#8594"
+      ]
+    },
+    {
+      "id": "T-F73E25B",
+      "name": "Grove",
+      "selected": {
+        "layout": true,
+        "chart": false,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://github.com/zarazhangrui/beautiful-html-templates/blob/main/templates/grove/template.html",
+      "sourceKind": "仓库原图 / SVG",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "html/grove/preview-1.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/grove/preview-2.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/grove/preview-3.png"
+        }
+      ],
+      "resources": [
+        "html/grove"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "html-layout-template",
+      "group": "HTML 演示版式",
+      "use": "观点分享、章节、对比与视觉叙事；按内容密度选择。只勾选版式时以 shenzhen 为默认主题，源 HTML 原色仅作参考；制作副本中调整变量，不修改模板原件。",
+      "templateHtml": "html/grove/template.html",
+      "referencePaletteApproved": true,
+      "editability": {
+        "html": "editable-source",
+        "pptx": "requires-native-export-and-QA"
+      },
+      "verification": "Original HTML and official preview retained; PowerPoint export is a separate production step.",
+      "sourcePalette": [
+        "#192b1b",
+        "#1e3221",
+        "#e8e4d6",
+        "#dedad0",
+        "#d4cfbf",
+        "#c8524a"
+      ]
+    },
+    {
+      "id": "T-50AAE21",
+      "name": "Long Table",
+      "selected": {
+        "layout": true,
+        "chart": false,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://github.com/zarazhangrui/beautiful-html-templates/blob/main/templates/long-table/template.html",
+      "sourceKind": "仓库原图 / SVG",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "html/long-table/preview-1.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/long-table/preview-2.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/long-table/preview-3.png"
+        }
+      ],
+      "resources": [
+        "html/long-table"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "html-layout-template",
+      "group": "HTML 演示版式",
+      "use": "观点分享、章节、对比与视觉叙事；按内容密度选择。只勾选版式时以 shenzhen 为默认主题，源 HTML 原色仅作参考；制作副本中调整变量，不修改模板原件。",
+      "templateHtml": "html/long-table/template.html",
+      "referencePaletteApproved": true,
+      "editability": {
+        "html": "editable-source",
+        "pptx": "requires-native-export-and-QA"
+      },
+      "verification": "Original HTML and official preview retained; PowerPoint export is a separate production step.",
+      "sourcePalette": [
+        "#FAF1E2",
+        "#F2E5CF",
+        "#E8D7B6",
+        "#B53D2A",
+        "#8E2D1F",
+        "#0a0a0a"
+      ]
+    },
+    {
+      "id": "T-1C57B1B",
+      "name": "Monochrome",
+      "selected": {
+        "layout": true,
+        "chart": false,
+        "color": false
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://github.com/zarazhangrui/beautiful-html-templates/blob/main/templates/monochrome/template.html",
+      "sourceKind": "仓库原图 / SVG",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "html/monochrome/preview-1.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/monochrome/preview-2.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/monochrome/preview-3.png"
+        }
+      ],
+      "resources": [
+        "html/monochrome"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "html-layout-template",
+      "group": "HTML 演示版式",
+      "use": "观点分享、章节、对比与视觉叙事；按内容密度选择。只勾选版式时以 shenzhen 为默认主题，源 HTML 原色仅作参考；制作副本中调整变量，不修改模板原件。",
+      "templateHtml": "html/monochrome/template.html",
+      "referencePaletteApproved": false,
+      "editability": {
+        "html": "editable-source",
+        "pptx": "requires-native-export-and-QA"
+      },
+      "verification": "Original HTML and official preview retained; PowerPoint export is a separate production step.",
+      "sourcePalette": [
+        "#fafadf",
+        "#f2f2d2",
+        "#f0f0d4",
+        "#f5f0e4",
+        "#1a1a16",
+        "#5e5e54",
+        "#8a8a80"
+      ]
+    },
+    {
+      "id": "T-8D76DE6",
+      "name": "Pink Script — After Hours",
+      "selected": {
+        "layout": true,
+        "chart": false,
+        "color": false
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://github.com/zarazhangrui/beautiful-html-templates/blob/main/templates/pink-script/template.html",
+      "sourceKind": "仓库原图 / SVG",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "html/pink-script/preview-1.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/pink-script/preview-2.png"
+        },
+        {
+          "theme": "reference",
+          "path": "html/pink-script/preview-3.png"
+        }
+      ],
+      "resources": [
+        "html/pink-script"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "html-layout-template",
+      "group": "HTML 演示版式",
+      "use": "观点分享、章节、对比与视觉叙事；按内容密度选择。只勾选版式时以 shenzhen 为默认主题，源 HTML 原色仅作参考；制作副本中调整变量，不修改模板原件。",
+      "templateHtml": "html/pink-script/template.html",
+      "referencePaletteApproved": false,
+      "editability": {
+        "html": "editable-source",
+        "pptx": "requires-native-export-and-QA"
+      },
+      "verification": "Original HTML and official preview retained; PowerPoint export is a separate production step.",
+      "sourcePalette": [
+        "#060507",
+        "#0F0D11",
+        "#F5EDF1",
+        "#ED3D8C",
+        "#FF66A8",
+        "#B81D67",
+        "#000",
+        "#1A1218",
+        "#0A0709",
+        "#050306"
+      ]
+    },
+    {
+      "id": "AR-AE44D32",
+      "name": "编辑式封面＋右侧概览",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/bgs0hJuYUZ5vHwxWryYdnQ",
+      "sourceKind": "原文章公开配图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "visual/AR-AE44D32/reference.jpg"
+        }
+      ],
+      "resources": [
+        "visual/AR-AE44D32"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "visual-reference-pattern",
+      "group": "文章视觉参考",
+      "use": "开场、研究问题、主题介绍；截图中的主幻灯片作为版式参考",
+      "referencePaletteApproved": true,
+      "editability": {
+        "source": "reference-image",
+        "production": "rebuild-required",
+        "pptx": "do-not-use-whole-page-image-as-editable-output"
+      },
+      "verification": "User approved visual direction. The source image is not an editable PPTX or verified business data.",
+      "originalName": "同一份高盛研报交给两款 AI 做 PPT，差距这么大！Genspark 和 Tosea AI，谁更适合咨询？ · 图1",
+      "slots": [
+        "顶部细品牌/章节栏",
+        "左侧大标题与一句背景",
+        "右侧窄概览栏",
+        "底部细页脚"
+      ],
+      "patternType": "single-page"
+    },
+    {
+      "id": "AR-B58AE2C",
+      "name": "暖白蓝金咨询汇报页面节奏",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/bgs0hJuYUZ5vHwxWryYdnQ",
+      "sourceKind": "原文章公开配图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "visual/AR-B58AE2C/reference.jpg"
+        }
+      ],
+      "resources": [
+        "visual/AR-B58AE2C"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "visual-reference-pattern",
+      "group": "文章视觉参考",
+      "use": "结论驱动的研究或经营汇报；参考整套节奏，不固定八页",
+      "referencePaletteApproved": true,
+      "editability": {
+        "source": "reference-image",
+        "production": "rebuild-required",
+        "pptx": "do-not-use-whole-page-image-as-editable-output"
+      },
+      "verification": "User approved visual direction. The source image is not an editable PPTX or verified business data.",
+      "originalName": "同一份高盛研报交给两款 AI 做 PPT，差距这么大！Genspark 和 Tosea AI，谁更适合咨询？ · 图2",
+      "slots": [
+        "封面与问题",
+        "关键规模和趋势",
+        "解释与对比",
+        "情景与风险",
+        "行动与持续观察"
+      ],
+      "patternType": "deck-outline"
+    },
+    {
+      "id": "AR-E600A08",
+      "name": "金色大数字＋年度趋势",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/bgs0hJuYUZ5vHwxWryYdnQ",
+      "sourceKind": "原文章公开配图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "visual/AR-E600A08/reference.jpg"
+        }
+      ],
+      "resources": [
+        "visual/AR-E600A08"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "visual-reference-pattern",
+      "group": "文章视觉参考",
+      "use": "总量、增长规模与年度趋势；来源截图中去除编辑器外框后理解页面区域",
+      "referencePaletteApproved": true,
+      "editability": {
+        "source": "reference-image",
+        "production": "rebuild-required",
+        "pptx": "do-not-use-whole-page-image-as-editable-output"
+      },
+      "verification": "User approved visual direction. The source image is not an editable PPTX or verified business data.",
+      "originalName": "同一份高盛研报交给两款 AI 做 PPT，差距这么大！Genspark 和 Tosea AI，谁更适合咨询？ · 图3",
+      "slots": [
+        "上方结论标题",
+        "左侧大数字区域",
+        "右侧辅助指标与解读",
+        "下方跨期趋势图"
+      ],
+      "patternType": "single-page"
+    },
+    {
+      "id": "AR-E704113",
+      "name": "蓝白研究汇报整套结构",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/bgs0hJuYUZ5vHwxWryYdnQ",
+      "sourceKind": "原文章公开配图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "visual/AR-E704113/reference.jpg"
+        }
+      ],
+      "resources": [
+        "visual/AR-E704113"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "visual-reference-pattern",
+      "group": "文章视觉参考",
+      "use": "动因、证据、不同解释和管理含义；按本次论证调整页数",
+      "referencePaletteApproved": true,
+      "editability": {
+        "source": "reference-image",
+        "production": "rebuild-required",
+        "pptx": "do-not-use-whole-page-image-as-editable-output"
+      },
+      "verification": "User approved visual direction. The source image is not an editable PPTX or verified business data.",
+      "originalName": "同一份高盛研报交给两款 AI 做 PPT，差距这么大！Genspark 和 Tosea AI，谁更适合咨询？ · 图4",
+      "slots": [
+        "主题封面",
+        "路线图或目录",
+        "关键动因",
+        "主要证据",
+        "不同解释",
+        "管理含义",
+        "讨论与开放问题"
+      ],
+      "patternType": "deck-outline"
+    },
+    {
+      "id": "AR-C318CDA",
+      "name": "左侧四点解读＋右侧双图",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/bgs0hJuYUZ5vHwxWryYdnQ",
+      "sourceKind": "原文章公开配图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "visual/AR-C318CDA/reference.jpg"
+        }
+      ],
+      "resources": [
+        "visual/AR-C318CDA"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "visual-reference-pattern",
+      "group": "文章视觉参考",
+      "use": "经营/市场证据解释；四项判断与两张对应图表",
+      "referencePaletteApproved": true,
+      "editability": {
+        "source": "reference-image",
+        "production": "rebuild-required",
+        "pptx": "do-not-use-whole-page-image-as-editable-output"
+      },
+      "verification": "User approved visual direction. The source image is not an editable PPTX or verified business data.",
+      "originalName": "同一份高盛研报交给两款 AI 做 PPT，差距这么大！Genspark 和 Tosea AI，谁更适合咨询？ · 图5",
+      "slots": [
+        "结论标题",
+        "左侧编号解释区域",
+        "右上柱形证据图",
+        "右下趋势证据图",
+        "图注和口径"
+      ],
+      "patternType": "single-page"
+    },
+    {
+      "id": "AR-1BBD768",
+      "name": "左侧三项影响＋右侧双证据",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/bgs0hJuYUZ5vHwxWryYdnQ",
+      "sourceKind": "原文章公开配图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "visual/AR-1BBD768/reference.jpg"
+        }
+      ],
+      "resources": [
+        "visual/AR-1BBD768"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "visual-reference-pattern",
+      "group": "文章视觉参考",
+      "use": "风险、市场或业务影响；不同维度的证据分图呈现",
+      "referencePaletteApproved": true,
+      "editability": {
+        "source": "reference-image",
+        "production": "rebuild-required",
+        "pptx": "do-not-use-whole-page-image-as-editable-output"
+      },
+      "verification": "User approved visual direction. The source image is not an editable PPTX or verified business data.",
+      "originalName": "同一份高盛研报交给两款 AI 做 PPT，差距这么大！Genspark 和 Tosea AI，谁更适合咨询？ · 图6",
+      "slots": [
+        "结论标题",
+        "左侧三项影响解读",
+        "右上比较图",
+        "右下时间趋势图",
+        "期间和数据口径"
+      ],
+      "patternType": "single-page"
+    },
+    {
+      "id": "AR-D74DDF8",
+      "name": "多层组织与系统全景",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/dh4bW4OH3VfTaQeCoeryQA",
+      "sourceKind": "原文章公开配图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "visual/AR-D74DDF8/reference.jpg"
+        }
+      ],
+      "resources": [
+        "visual/AR-D74DDF8"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "visual-reference-pattern",
+      "group": "文章视觉参考",
+      "use": "信息密集的组织/能力/系统架构阅读页；可拆成讲解版多页",
+      "referencePaletteApproved": true,
+      "editability": {
+        "source": "reference-image",
+        "production": "rebuild-required",
+        "pptx": "do-not-use-whole-page-image-as-editable-output"
+      },
+      "verification": "User approved visual direction. The source image is not an editable PPTX or verified business data.",
+      "originalName": "AI做PPT最难的一类：几万字、内容密集型，我把它封装成了 Skill · 图1",
+      "slots": [
+        "左上主题",
+        "顶部责任和协作关系",
+        "中区角色矩阵",
+        "下方分层架构和系统底座",
+        "右侧管理价值"
+      ],
+      "patternType": "dense-architecture"
+    },
+    {
+      "id": "AR-C106114",
+      "name": "排行榜表格＋区间点图",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/f47EsqTvgeMROCvLSONCWQ",
+      "sourceKind": "原文章公开配图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "visual/AR-C106114/reference.jpg"
+        }
+      ],
+      "resources": [
+        "visual/AR-C106114"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "visual-reference-pattern",
+      "group": "文章视觉参考",
+      "use": "对象排名、横向对比与不确定性范围；本图是表格界面参考",
+      "referencePaletteApproved": true,
+      "editability": {
+        "source": "reference-image",
+        "production": "rebuild-required",
+        "pptx": "do-not-use-whole-page-image-as-editable-output"
+      },
+      "verification": "User approved visual direction. The source image is not an editable PPTX or verified business data.",
+      "originalName": "EasySlides 更新 | 支持图生可编辑 PPT · 图6",
+      "slots": [
+        "列标题与单位",
+        "排名和对象列",
+        "类别与指标列",
+        "区间/点图列",
+        "样本量和比例列",
+        "页底定义与来源"
+      ],
+      "patternType": "comparison-table"
+    },
+    {
+      "id": "AR-9004685",
+      "name": "研究型封面＋底部导航",
+      "selected": {
+        "layout": true,
+        "chart": false,
+        "color": true
+      },
+      "selectionOwner": "Patrick",
+      "selectionDate": "2026-10-14",
+      "source": "https://mp.weixin.qq.com/s/f47EsqTvgeMROCvLSONCWQ",
+      "sourceKind": "原文章公开配图",
+      "defaultTheme": "shenzhen",
+      "themes": [
+        "shenzhen",
+        "reference"
+      ],
+      "previewImages": [
+        {
+          "theme": "reference",
+          "path": "visual/AR-9004685/reference.jpg"
+        }
+      ],
+      "resources": [
+        "visual/AR-9004685"
+      ],
+      "status": "user-selected",
+      "notes": "",
+      "kind": "visual-reference-pattern",
+      "group": "文章视觉参考",
+      "use": "正式培训、研究或方案开场；插画按本次主题替换",
+      "referencePaletteApproved": true,
+      "editability": {
+        "source": "reference-image",
+        "production": "rebuild-required",
+        "pptx": "do-not-use-whole-page-image-as-editable-output"
+      },
+      "verification": "User approved visual direction. The source image is not an editable PPTX or verified business data.",
+      "originalName": "EasySlides 更新 | 支持图生可编辑 PPT · 图9",
+      "slots": [
+        "上方背景说明",
+        "居中大标题",
+        "副标题与署名",
+        "右下主题配图",
+        "底部章节导航"
+      ],
+      "patternType": "cover"
+    }
+  ]
+}

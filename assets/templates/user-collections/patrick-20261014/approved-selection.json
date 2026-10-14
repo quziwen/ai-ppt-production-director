@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "owner": "Patrick",
+  "confirmedAt": "2026-10-14",
+  "observedAt": "2026-10-14T03:36:40.853Z",
+  "source": "用户本轮确认，并经 Chrome 模板选样室可见完整选择清单回读",
+  "defaultTheme": "shenzhen",
+  "items": [
+    {
+      "id": "FA02",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "FA03",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "FA04",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "FA05",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "FA06",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "FA07",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "FA08",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "FA09",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "FA10",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "ER01",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "ER02",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "ER03",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "ER04",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "ER05",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "ER06",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "CC01",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "CC02",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "CC03",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "CC04",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "CC05",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "CC06",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "CC07",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "CC08",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "T-C03B78D",
+      "selected": {
+        "layout": true
+      }
+    },
+    {
+      "id": "T-54F5C1A",
+      "selected": {
+        "layout": true,
+        "color": true
+      }
+    },
+    {
+      "id": "T-7ECA850",
+      "selected": {
+        "layout": true
+      }
+    },
+    {
+      "id": "T-5C8819C",
+      "selected": {
+        "layout": true,
+        "color": true
+      }
+    },
+    {
+      "id": "T-F73E25B",
+      "selected": {
+        "layout": true,
+        "color": true
+      }
+    },
+    {
+      "id": "T-50AAE21",
+      "selected": {
+        "layout": true,
+        "color": true
+      }
+    },
+    {
+      "id": "T-1C57B1B",
+      "selected": {
+        "layout": true
+      }
+    },
+    {
+      "id": "T-8D76DE6",
+      "selected": {
+        "layout": true
+      }
+    },
+    {
+      "id": "AR-AE44D32",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "AR-B58AE2C",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "AR-E600A08",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "AR-E704113",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "AR-C318CDA",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "AR-1BBD768",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "AR-D74DDF8",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "AR-C106114",
+      "selected": {
+        "layout": true,
+        "chart": true,
+        "color": true
+      }
+    },
+    {
+      "id": "AR-9004685",
+      "selected": {
+        "layout": true,
+        "color": true
+      }
+    }
+  ]
+}

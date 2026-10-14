@@ -25,6 +25,9 @@ out/
 *.mov
 *.webm
 
+# Approved synthetic template samples only; real deck outputs remain ignored
+!assets/templates/user-collections/patrick-20261014/native/*/samples/*.pptx
+
 # Local private materials
 AGENTS.md
 private/

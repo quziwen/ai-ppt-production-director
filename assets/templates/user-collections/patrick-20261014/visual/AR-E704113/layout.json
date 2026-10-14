@@ -1,0 +1,36 @@
+{
+  "id": "AR-E704113",
+  "name": "蓝白研究汇报整套结构",
+  "kind": "visual-reference-pattern",
+  "selected": {
+    "layout": true,
+    "chart": true,
+    "color": true
+  },
+  "referenceImage": "reference.jpg",
+  "productionInstructions": [
+    "先看原图，从中识别标题、图表、注释和层级；产品界面和广告不作为正文结构",
+    "将本次内容映射到独立原生文字、表格、形状与有数据源的图表",
+    "来源数字与品牌标识只用于看样，不带入新稿",
+    "遵循当前工作区规范与本次批准的 E/H 目标；改数据检查图形联动"
+  ],
+  "themeChoice": [
+    "shenzhen",
+    "reference"
+  ],
+  "rawData": "provided-by-current-deck",
+  "acceptance": "selection-approved; production-QA-required",
+  "use": "动因、证据、不同解释和管理含义；按本次论证调整页数",
+  "slots": [
+    "主题封面",
+    "路线图或目录",
+    "关键动因",
+    "主要证据",
+    "不同解释",
+    "管理含义",
+    "讨论与开放问题"
+  ],
+  "patternType": "deck-outline",
+  "sourceName": "同一份高盛研报交给两款 AI 做 PPT，差距这么大！Genspark 和 Tosea AI，谁更适合咨询？ · 图4",
+  "guard": "来源文字、品牌、数字和轴标签仅用于理解样图；正式制作使用本次资料重新排版和绘图。"
+}

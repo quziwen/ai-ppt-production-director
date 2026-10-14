@@ -1,0 +1,11 @@
+{
+  "version":"0.1","source":"https://mp.weixin.qq.com/s/0-iTwczyESrr2J88LyaMxg","status":"reference-approved; reconstruction-pending",
+  "patterns":[
+    {"id":"ER01","name":"大数字概览与评审目标","reference":"article-1 top-left","slots":["结论标题","三项大指标","左下现金指标","右下解读块"],"use":"开场业绩概览，3—4个关键指标"},
+    {"id":"ER02","name":"结构摘要与本期明细","reference":"article-1 top-right","slots":["顶部三项结构观察","下方明细矩阵","本期列高亮"],"use":"多地区/多业务结构，过密则拆阅读附录"},
+    {"id":"ER03","name":"四指标与趋势","reference":"article-1 middle-left; article-2","slots":["左侧2×2数字与解释","右侧趋势柱图","左下管理含义"],"use":"订单、收入、客户规模与可比期间趋势"},
+    {"id":"ER04","name":"经营解读与回报矩阵","reference":"article-1 middle-right","slots":["左侧指标解释","右侧多期矩阵","突出最新期"],"use":"利润率、资本回报、效率指标；不混淆单位"},
+    {"id":"ER05","name":"现金指标与勾稽表","reference":"article-1 bottom-left","slots":["左侧现金数字及判断","右侧前后期间表","结果行突出"],"use":"经营现金减资本支出等口径清楚的勾稽"},
+    {"id":"ER06","name":"六项管理讨论","reference":"article-1 bottom-right","slots":["六项编号议题","每项动作与条件","统一列网格"],"use":"可独立讨论的管理议题；不得把有先后依赖的流程硬放成六宫格"}
+  ]
+}

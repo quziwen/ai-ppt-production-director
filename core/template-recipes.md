@@ -2,6 +2,8 @@
 
 These are original design recipes, not template files. They describe how to make a deck look and behave. They may be implemented in PPTX, HTML, or another slide tool.
 
+When installed user collections exist or the user names a previously selected template, first use [the user-template set](../references/USER_TEMPLATE_SET.md). Its catalog and materialization helper provide actual selectable assets. The original recipes below remain useful when no selected asset fits the current content.
+
 ## 1. executive-consulting-dark
 
 Best for:

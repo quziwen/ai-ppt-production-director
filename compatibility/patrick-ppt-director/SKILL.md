@@ -5,7 +5,7 @@ description: Compatibility entry for Patrick PPT Director and Patrick's adopted 
 
 # Patrick PPT Director compatibility entry
 
-Version: 0.3.6.
+Version: 0.3.7.
 
 Load the installed sibling `../ai-ppt-production-director/SKILL.md`, use its Patrick profile, and follow its current workflow and contracts. In a repository checkout (not an installed skills directory), the canonical file is [../../SKILL.md](../../SKILL.md).
 

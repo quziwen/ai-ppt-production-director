@@ -1,0 +1,34 @@
+{
+  "id": "AR-9004685",
+  "name": "研究型封面＋底部导航",
+  "kind": "visual-reference-pattern",
+  "selected": {
+    "layout": true,
+    "chart": false,
+    "color": true
+  },
+  "referenceImage": "reference.jpg",
+  "productionInstructions": [
+    "先看原图，从中识别标题、图表、注释和层级；产品界面和广告不作为正文结构",
+    "将本次内容映射到独立原生文字、表格、形状与有数据源的图表",
+    "来源数字与品牌标识只用于看样，不带入新稿",
+    "遵循当前工作区规范与本次批准的 E/H 目标；改数据检查图形联动"
+  ],
+  "themeChoice": [
+    "shenzhen",
+    "reference"
+  ],
+  "rawData": "provided-by-current-deck",
+  "acceptance": "selection-approved; production-QA-required",
+  "use": "正式培训、研究或方案开场；插画按本次主题替换",
+  "slots": [
+    "上方背景说明",
+    "居中大标题",
+    "副标题与署名",
+    "右下主题配图",
+    "底部章节导航"
+  ],
+  "patternType": "cover",
+  "sourceName": "EasySlides 更新 | 支持图生可编辑 PPT · 图9",
+  "guard": "来源文字、品牌、数字和轴标签仅用于理解样图；正式制作使用本次资料重新排版和绘图。"
+}

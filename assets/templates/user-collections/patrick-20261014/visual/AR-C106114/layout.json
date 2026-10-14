@@ -1,0 +1,35 @@
+{
+  "id": "AR-C106114",
+  "name": "排行榜表格＋区间点图",
+  "kind": "visual-reference-pattern",
+  "selected": {
+    "layout": true,
+    "chart": true,
+    "color": true
+  },
+  "referenceImage": "reference.jpg",
+  "productionInstructions": [
+    "先看原图，从中识别标题、图表、注释和层级；产品界面和广告不作为正文结构",
+    "将本次内容映射到独立原生文字、表格、形状与有数据源的图表",
+    "来源数字与品牌标识只用于看样，不带入新稿",
+    "遵循当前工作区规范与本次批准的 E/H 目标；改数据检查图形联动"
+  ],
+  "themeChoice": [
+    "shenzhen",
+    "reference"
+  ],
+  "rawData": "provided-by-current-deck",
+  "acceptance": "selection-approved; production-QA-required",
+  "use": "对象排名、横向对比与不确定性范围；本图是表格界面参考",
+  "slots": [
+    "列标题与单位",
+    "排名和对象列",
+    "类别与指标列",
+    "区间/点图列",
+    "样本量和比例列",
+    "页底定义与来源"
+  ],
+  "patternType": "comparison-table",
+  "sourceName": "EasySlides 更新 | 支持图生可编辑 PPT · 图6",
+  "guard": "来源文字、品牌、数字和轴标签仅用于理解样图；正式制作使用本次资料重新排版和绘图。"
+}

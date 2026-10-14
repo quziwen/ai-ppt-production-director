@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.7 — 2026-10-14
+
+- Adds portable user-selectable template catalogs, local previews and a dependency-free template lookup/materialization helper.
+- Publishes the 40 explicitly selected items in an optional templates-included package: 23 native financial patterns, 8 HTML layouts and 9 visual references.
+- Retains independent layout/chart/color preferences and references current workspace style rules dynamically.
+- Includes native sample PPTX, adjustable source data/themes, HTML source and locally saved reference images without adding upstream production engines.
+- Separates standard packaging from packaging with user assets; existing production adapters are unchanged.
+- Selection and portable materialization do not establish new whole-deck E3/H3 or image-reference editability.
+- Updates README examples, versioned downloads, provenance/distribution notes and known chart-data refresh limits; no PPT Master engine or dependency is introduced.
+
 ## 0.3.6 — 2026-10-12
 
 Unified release on the original `ai-ppt-production-director` repository.

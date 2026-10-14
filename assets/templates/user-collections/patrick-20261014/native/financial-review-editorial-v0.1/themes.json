@@ -1,0 +1,4 @@
+{
+ "shenzhen":{"name":"深圳暖白·海军蓝金","background":"F8F3E8","text":"203B61","primary":"203B61","accent":"8F6922","panel":"EFE6CF","muted":"43505F","rule":"D4D4CC","white":"FFFDF7","titleFont":"SimSun","bodyFont":"Microsoft YaHei UI","numberFont":"Segoe UI"},
+ "reference-purple":{"name":"参考紫色·白底","background":"F6F7F7","text":"18171C","primary":"590A8C","accent":"7714AC","panel":"EBE5F4","muted":"4F4D59","rule":"DCDDE2","white":"FFFFFF","titleFont":"Microsoft YaHei UI","bodyFont":"Microsoft YaHei UI","numberFont":"Segoe UI"}
+}

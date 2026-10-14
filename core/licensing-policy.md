@@ -2,6 +2,10 @@
 
 This repository is designed for public release.
 
+## Current approved collection
+
+Version 0.3.7 includes the maintainer-approved `assets/templates/user-collections/patrick-20261014/` set: reconstructed financial patterns with synthetic data, eight imported HTML layouts/previews, and nine public visual references. Keep their cataloged source URLs and provenance. This collection-specific publication does not authorize adding private uploads or other external templates, and does not claim that this project's license transfers ownership of imported sources. The lightweight standard package omits this collection.
+
 ## Allowed
 
 - Original workflow documentation.
@@ -16,8 +20,8 @@ This repository is designed for public release.
 
 - Private business decks.
 - Internal screenshots, videos, logos, fonts, or templates.
-- Third-party template files from Canva, Slidesgo, marketplace sites, or similar sources.
-- User-uploaded templates committed into this public repository.
+- Unapproved third-party template files from Canva, Slidesgo, marketplace sites, or similar sources.
+- Private user-uploaded templates committed into this public repository without specific publication authorization.
 - Decompiled or reconstructed commercial templates.
 - Conversation transcripts containing private context.
 - Local file paths, credentials, account names, or private workspace details.
@@ -26,7 +30,7 @@ This repository is designed for public release.
 
 External template sites may be referenced as inspiration or linked resources.
 
-Do not copy:
+Outside an explicitly approved and cataloged collection, do not copy:
 
 - template files;
 - slide screenshots;
